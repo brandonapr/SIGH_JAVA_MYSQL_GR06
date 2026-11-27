@@ -1,0 +1,5 @@
+<%@ page pageEncoding="UTF-8" %>
+<footer class="institutional-footer">
+  <p>Universidad de las Fuerzas Armadas ESPE<span class="footer-separator">·</span>Departamento de Ciencias de la Computación</p>
+  <p>Desarrollo Web Avanzado <span>·</span> NRC 36879 <span>·</span> PAO 202651 <span>·</span> GR06</p>
+</footer>

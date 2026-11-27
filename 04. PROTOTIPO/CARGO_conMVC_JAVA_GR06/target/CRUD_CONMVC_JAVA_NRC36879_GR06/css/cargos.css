@@ -1,0 +1,214 @@
+.cargos-page {
+    --ink: #f1f5f9;
+    --line: #334155;
+    --teal: #38bdf8;
+    --teal-dark: #7dd3fc;
+    --cargo-panel: #162234;
+    --cargo-muted: #b7c9dc;
+    background: #0f172a;
+    color: var(--ink);
+}
+
+.cargos-page .app-header,
+.cargos-page .institutional-footer {
+    background: #0b1220;
+    border-color: var(--line);
+}
+
+.cargos-page .brand-mark {
+    color: #7dd3fc;
+    background: #102c43;
+    border-color: #275575;
+}
+
+.cargos-page .dept-breadcrumb a {
+    color: var(--teal-dark);
+}
+
+.cargos-page .dept-breadcrumb [aria-current],
+.cargos-page .dept-page-heading p,
+.cargos-page .dept-field-hint,
+.cargos-page .institutional-footer,
+.cargos-page .institutional-footer p + p,
+.cargos-page .institutional-footer p span {
+    color: var(--cargo-muted);
+}
+
+.cargos-page .dept-catalog,
+.cargos-page .dept-form-card {
+    background: var(--cargo-panel);
+}
+
+.cargos-page .cargo-form-card { max-width: 720px; }
+
+.cargos-page .dept-form-heading,
+.cargos-page .dept-form-actions {
+    border-color: var(--line);
+}
+
+.cargos-page .dept-empty p {
+    color: var(--cargo-muted);
+}
+
+.cargos-page .dept-field label {
+    color: var(--ink);
+}
+
+.cargos-page .dept-empty {
+    border-top: 0;
+}
+
+.cargos-page .button-primary {
+    background: var(--teal);
+    color: #082f49;
+}
+
+.cargos-page .button-primary:hover {
+    background: var(--teal-dark);
+    border-color: #0284c7;
+}
+
+.cargos-page .dept-button-secondary,
+.cargos-page .dept-action {
+    background: #19283d;
+    border-color: #425975;
+}
+
+.cargos-page .dept-button-secondary { color: var(--ink); }
+
+.cargos-page .dept-button-secondary:hover {
+    background: #203753;
+    border-color: #0284c7;
+}
+
+.cargos-page .dept-action-delete,
+.cargos-page .dept-field-error {
+    color: #fecaca;
+}
+
+.cargos-page .dept-action-delete:hover {
+    background: #462538;
+    border-color: #b76c7c;
+}
+
+.cargos-page .dept-form-actions {
+    flex-wrap: wrap;
+}
+
+.cargos-page .dept-form-actions .dept-action-delete:disabled {
+    cursor: default;
+    background: #19283d;
+    border-color: #425975;
+}
+
+.cargos-page .dept-field-error[hidden] {
+    display: none;
+}
+
+.cargos-page .dept-alert-success {
+    color: #a7f3d0;
+    background: #142f31;
+    border-color: #357063;
+}
+
+.cargos-page .dept-alert-error,
+.cargos-page .dept-validation-summary.validation-summary-errors {
+    color: #fecaca;
+    background: #382536;
+    border-color: #925366;
+}
+
+.cargos-page .dept-field select {
+    display: block;
+    width: 100%;
+    height: 48px;
+    padding: 0 14px;
+    border: 1px solid;
+    border-radius: 6px;
+    font: inherit;
+    font-size: 13px;
+}
+
+.cargos-page .dept-field input,
+.cargos-page .dept-field select {
+    color: var(--ink);
+    background: #101b2c;
+    border-color: #4a607b;
+}
+
+.cargos-page .dept-field input::placeholder {
+    color: var(--cargo-muted);
+}
+
+.cargos-page .dept-field input[readonly],
+.cargos-page .dept-field select:disabled {
+    color: var(--cargo-muted);
+    background: #23334b;
+    opacity: 1;
+}
+
+.cargos-page .dept-field input:focus,
+.cargos-page .dept-field select:focus {
+    outline: none;
+    border-color: var(--teal);
+    box-shadow: 0 0 0 3px #0284c740;
+}
+
+.cargos-page .dept-field label > span { color: var(--teal-dark); }
+
+.cargos-page a:focus-visible,
+.cargos-page button:focus-visible {
+    outline-color: var(--teal);
+}
+
+.cargo-workspace {
+    display: grid;
+    grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+    align-items: start;
+    gap: 24px;
+}
+
+.cargo-consulta {
+    padding: 27px 30px;
+}
+
+.cargo-consulta h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.cargo-filtros {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 8rem);
+    gap: 16px;
+    margin-bottom: 22px;
+}
+
+.cargo-filtros .dept-field,
+.cargo-resultados {
+    margin-bottom: 0;
+}
+
+.cargo-filtros .dept-field:last-child {
+    grid-column: 1 / -1;
+}
+
+.cargos-page .cargo-resultados select {
+    height: auto;
+    padding: 6px;
+}
+
+.cargo-resultados option {
+    padding: 7px 9px;
+}
+
+@media (max-width: 850px) {
+    .cargo-workspace {
+        grid-template-columns: minmax(0, 1fr);
+    }
+}
+
+@media (max-width: 650px) {
+    .cargo-consulta { padding: 24px 22px; }
+    .cargos-page .dept-field select { font-size: 16px; }
+}
