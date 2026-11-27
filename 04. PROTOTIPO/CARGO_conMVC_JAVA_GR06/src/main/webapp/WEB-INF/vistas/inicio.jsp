@@ -1,4 +1,4 @@
-﻿<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ taglib prefix="c" uri="jakarta.tags.core" %>
 <!DOCTYPE html>
 <html lang="es">
@@ -38,6 +38,7 @@
       <div class="dept-nav-copy"><span class="eyebrow">GESTIÓN DE PERSONAL</span><h2>Mantenimiento de Personal (PEPER_PERSON)</h2><p>Registrar y consultar personal mediante pestañas de datos laborales y contacto.</p></div>
       <svg class="dept-nav-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
     </a>
+    <a class="dept-nav-card" href="${pageContext.request.contextPath}/reportes"><span class="dept-nav-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M8 3h12l5 5v21H8zM12 14h9m-9 5h9m-9 5h6" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></span><div class="dept-nav-copy"><span class="eyebrow">CONSULTAS Y REPORTES</span><h2>Reportes hospitalarios</h2><p>Generar reportes, imprimir o guardar PDF.</p></div><svg class="dept-nav-arrow" viewBox="0 0 24 24" fill="none"><path d="M5 12h14m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.7"/></svg></a>
     <section class="session-advice" aria-labelledby="session-advice-heading"><span class="advice-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="m12 3 8 3v6c0 4-4 7-8 9-4-2-8-5-8-9V6l8-3Z" stroke="currentColor" stroke-width="1.6"/><path d="m8.5 12 2.5 2.5 4.5-5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><h2 id="session-advice-heading">Cuide la seguridad de su sesión</h2><p>Al terminar, utilice <strong>Cerrar sesión</strong>, especialmente si trabaja en un equipo compartido.</p></div><span class="session-system">SIGH_GR06</span></section>
   </main>
   <%@ include file="fragmentos/pie.jspf" %>

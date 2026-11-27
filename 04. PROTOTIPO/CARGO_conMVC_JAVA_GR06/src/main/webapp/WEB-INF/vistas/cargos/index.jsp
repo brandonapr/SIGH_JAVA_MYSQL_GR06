@@ -51,25 +51,26 @@
                 <div class="cargo-workspace">
                     <section class="dept-catalog cargo-consulta" aria-labelledby="cargo-consulta-heading">
                         <h2 id="cargo-consulta-heading">Consultar cargos</h2>
-                        <div class="cargo-filtros">
+                        <form id="filtros-reporte" method="get" action="${pageContext.request.contextPath}/reportes/cargos" class="cargo-filtros">
                             <div class="dept-field">
                                 <label for="filtro-descripcion">Descripción</label>
-                                <input id="filtro-descripcion" type="search" autocomplete="off" />
+                                <input id="filtro-descripcion" name="descripcion" maxlength="50" type="search" autocomplete="off" />
                             </div>
                             <div class="dept-field">
                                 <label for="filtro-codigo">Código</label>
-                                <input id="filtro-codigo" type="search" autocomplete="off" />
+                                <input id="filtro-codigo" name="codigo" maxlength="3" type="search" autocomplete="off" />
                             </div>
                             <div class="dept-field">
                                 <label for="filtro-departamento">Departamento</label>
-                                <select id="filtro-departamento">
+                                <select id="filtro-departamento" name="departamento">
                                     <option value="">Todos los departamentos</option>
                                     <c:forEach items="${modelo.departamentos}" var="departamento">
                                         <option value="${departamento.pedepCodigo}"><c:out value="${departamento.pedepCodigo}"/> - <c:out value="${departamento.pedepDescri}"/></option>
                                     </c:forEach>
                                 </select>
                             </div>
-                        </div>
+                            <button class="button dept-button-secondary" type="submit">Ver reporte</button>
+                        </form>
                         <div class="dept-field cargo-resultados">
                             <label for="lista-cargos">Cargos registrados</label>
                             <select id="lista-cargos" size="9" aria-describedby="cargos-resultados">

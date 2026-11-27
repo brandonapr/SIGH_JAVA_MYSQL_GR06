@@ -16,6 +16,7 @@ import java.io.IOException;
     "/departamentos", "/departamentos/*",
     "/cargos", "/cargos/*",
     "/persona", "/persona/*",
+    "/reportes", "/reportes/*",
     "/api/TestOrm/usuarios", "/api/TestOrm/departamentos"
 })
 public class FiltroSesion implements Filter {

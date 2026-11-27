@@ -62,7 +62,7 @@
       <a class="button dept-button-secondary" data-conservar-tab href="<c:out value='${urlNuevo}'/>">Nuevo</a>
       <a class="button dept-button-secondary" data-conservar-tab href="<c:out value='${urlListar}'/>#listado">Listar</a>
       <button type="submit" class="button button-primary" name="accion" value="guardar" ${bloqueado ? 'disabled' : ''}>${nuevo or bloqueado ? 'Guardar' : 'Actualizar'}</button>
-      <c:if test="${not nuevo and not bloqueado}"><button class="button persona-delete" type="submit" name="accion" value="eliminar" formnovalidate data-confirmar>Eliminar</button></c:if>
+      <c:if test="${not nuevo and not bloqueado}"><c:url var="urlFicha" value="/reportes/persona"><c:param name="codigo" value="${cod}"/></c:url><a class="button dept-button-secondary" href="<c:out value='${urlFicha}'/>">Imprimir ficha</a><button class="button persona-delete" type="submit" name="accion" value="eliminar" formnovalidate data-confirmar>Eliminar</button></c:if>
      </div>
     </form>
    </section>
