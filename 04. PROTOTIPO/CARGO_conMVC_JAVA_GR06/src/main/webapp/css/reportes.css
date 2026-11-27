@@ -1,2 +1,294 @@
-.report-filter{margin-bottom:24px;padding:24px}.report-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:18px;align-items:end}.report-actions{grid-column:1/-1;flex-wrap:wrap}.report-summary{display:flex;flex-wrap:wrap;gap:8px 22px;padding:12px 26px;color:#526e7b;font-size:13px}.report-total{padding:16px 26px;color:#132f3b}.report-result{margin-top:20px}.report-page .dept-nav-card{margin-bottom:16px}
-@media print{@page{margin:15mm}html,body,.report-page{background:white!important;color:#111!important;display:block!important;min-height:0!important}.no-print,.app-header form,.institutional-footer{display:none!important}.app-header,.app-header-inner,.brand,.brand-name,.brand-name span{background:white!important;color:#132f3b!important;box-shadow:none!important}.dept-main{width:100%!important;margin:0!important;padding:12px 0!important}.dept-catalog{border:0!important;box-shadow:none!important}.dept-table-wrap{overflow:visible!important}.dept-table{display:table!important;width:100%!important}.dept-table thead{display:table-header-group!important;position:static!important;width:auto!important;height:auto!important;clip:auto!important;overflow:visible!important}.dept-table tbody{display:table-row-group!important}.dept-table tr{display:table-row!important;break-inside:avoid}.dept-table th,.dept-table td{display:table-cell!important;padding:7px!important;color:#111!important;font-size:10pt!important}.dept-table td::before{display:none!important}.report-summary,.report-total{padding:8px 0!important}.dept-page-heading h1{font-size:22pt!important;color:#132f3b!important}}
+/* =========================================
+   CONTENEDOR DE FILTROS
+   ========================================= */
+
+.report-filter {
+    margin-bottom: 24px;
+    padding: 24px;
+}
+
+/* =========================================
+   DISTRIBUCIÓN GENERAL
+   ========================================= */
+
+.report-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 20px;
+    align-items: start;
+}
+
+.report-grid .dept-field {
+    margin-bottom: 0;
+    min-width: 0;
+}
+
+/* =========================================
+   REPORTE DE CARGOS POR DEPARTAMENTO
+   ========================================= */
+
+.report-grid[action$="/reportes/cargos"] {
+    grid-template-columns: minmax(0, 1fr) 200px 280px;
+    align-items: start;
+    gap: 20px;
+}
+
+/* Departamento alineado a la izquierda */
+
+.report-grid[action$="/reportes/cargos"] .dept-field:first-child {
+    width: 100%;
+    max-width: 350px;
+    justify-self: start;
+}
+
+/* Código alineado a la derecha */
+
+.report-grid[action$="/reportes/cargos"] .dept-field:nth-child(2) {
+    width: 100%;
+    justify-self: end;
+}
+
+/* Descripción alineada a la derecha */
+
+.report-grid[action$="/reportes/cargos"] .dept-field:nth-child(3) {
+    width: 100%;
+    justify-self: end;
+}
+
+/* =========================================
+   ETIQUETAS DE LOS CAMPOS
+   ========================================= */
+
+.report-grid .dept-field label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #304f5c;
+}
+
+/* =========================================
+   ESTILOS DE INPUT Y SELECT
+   ========================================= */
+
+.report-grid .dept-field input,
+.report-grid .dept-field select {
+    display: block;
+    width: 100%;
+    height: 48px;
+    min-width: 0;
+    box-sizing: border-box;
+    border: 1px solid #cddce1;
+    border-radius: 6px;
+    padding: 12px 14px;
+    font-family: inherit;
+    font-size: 13px;
+    background: #fcfdfd;
+    color: var(--ink);
+    transition: border-color .15s, box-shadow .15s;
+}
+
+/* Selector desplegable */
+
+.report-grid .dept-field select {
+    cursor: pointer;
+    padding-right: 30px;
+}
+
+/* Efecto al seleccionar un campo */
+
+.report-grid .dept-field input:focus,
+.report-grid .dept-field select:focus {
+    outline: none;
+    border-color: var(--teal);
+    background: white;
+    box-shadow: 0 0 0 3px rgba(8, 127, 123, .11);
+}
+
+.report-grid .dept-field input::placeholder {
+    color: #6d828d;
+}
+
+/* =========================================
+   BOTONES DE ACCIÓN
+   ========================================= */
+
+.report-actions {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 11px;
+    margin-top: 12px;
+    padding-top: 20px;
+    border-top: 1px solid #e5edef;
+}
+
+/* =========================================
+   RESULTADOS DEL REPORTE
+   ========================================= */
+
+.report-summary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 22px;
+    padding: 12px 26px;
+    color: #526e7b;
+    font-size: 13px;
+}
+
+.report-total {
+    padding: 16px 26px;
+    color: #132f3b;
+}
+
+.report-result {
+    margin-top: 20px;
+}
+
+.report-page .dept-nav-card {
+    margin-bottom: 16px;
+}
+
+/* =========================================
+   DISEÑO RESPONSIVO
+   ========================================= */
+
+@media screen and (max-width: 850px) {
+
+    .report-grid,
+    .report-grid[action$="/reportes/cargos"] {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+    }
+
+    .report-grid[action$="/reportes/cargos"] .dept-field:first-child {
+        grid-column: 1 / -1;
+        max-width: none;
+    }
+
+    .report-filter {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .report-grid,
+    .report-grid[action$="/reportes/cargos"] {
+        grid-template-columns: 1fr;
+    }
+
+    .report-grid .dept-field {
+        width: 100%;
+    }
+
+    .report-actions {
+        justify-content: center;
+    }
+
+    .report-actions .button {
+        flex: 1 1 100%;
+    }
+
+    .report-filter {
+        padding: 16px;
+    }
+}
+
+/* =========================================
+   IMPRESIÓN Y EXPORTACIÓN A PDF
+   ========================================= */
+
+@media print {
+
+    @page {
+        margin: 15mm;
+    }
+
+    html,
+    body,
+    .report-page {
+        background: white !important;
+        color: #111 !important;
+        display: block !important;
+        min-height: 0 !important;
+    }
+
+    .no-print,
+    .app-header form,
+    .institutional-footer {
+        display: none !important;
+    }
+
+    .app-header,
+    .app-header-inner,
+    .brand,
+    .brand-name,
+    .brand-name span {
+        background: white !important;
+        color: #132f3b !important;
+        box-shadow: none !important;
+    }
+
+    .dept-main {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 12px 0 !important;
+    }
+
+    .dept-catalog {
+        border: 0 !important;
+        box-shadow: none !important;
+    }
+
+    .dept-table-wrap {
+        overflow: visible !important;
+    }
+
+    .dept-table {
+        display: table !important;
+        width: 100% !important;
+    }
+
+    .dept-table thead {
+        display: table-header-group !important;
+        position: static !important;
+        width: auto !important;
+        height: auto !important;
+        clip: auto !important;
+        overflow: visible !important;
+    }
+
+    .dept-table tbody {
+        display: table-row-group !important;
+    }
+
+    .dept-table tr {
+        display: table-row !important;
+        break-inside: avoid;
+    }
+
+    .dept-table th,
+    .dept-table td {
+        display: table-cell !important;
+        padding: 7px !important;
+        color: #111 !important;
+        font-size: 10pt !important;
+    }
+
+    .dept-table td::before {
+        display: none !important;
+    }
+
+    .report-summary,
+    .report-total {
+        padding: 8px 0 !important;
+    }
+
+    .dept-page-heading h1 {
+        font-size: 22pt !important;
+        color: #132f3b !important;
+    }
+}
