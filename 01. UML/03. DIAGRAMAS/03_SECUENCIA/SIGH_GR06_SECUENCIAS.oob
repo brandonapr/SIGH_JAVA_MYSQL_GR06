@@ -1,0 +1,1352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?PowerDesigner AppLocale="UTF16" ID="{D5FA16B0-4DFA-4C31-AC6B-8568397C7E55}" Label="" Name="SIGH_GR06_UML_COMPLETO" Objects="383" Symbols="218" Target="Analysis" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="16.6.1.5066"?>
+<!-- UML editable del proyecto SIGH GR06, modelo de clases y de secuencia. -->
+<Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
+
+<o:RootObject Id="o1">
+<c:Children>
+<o:Model Id="o2">
+<a:ObjectID>6F1D77D3-F29F-4C7E-AB5E-ABC23A6AA9B7</a:ObjectID>
+<a:Name>SIGH_GR06_SECUENCIAS</a:Name>
+<a:Code>SIGH_GR06_SECUENCIAS</a:Code>
+<a:CreationDate>1793673496</a:CreationDate>
+<a:Creator>SIGH GR06</a:Creator>
+<a:ModificationDate>1793673566</a:ModificationDate>
+<a:Modifier>SIGH GR06</a:Modifier>
+<a:History>ORG {CDE3677C-4210-476E-82E8-87F74F7EB53E}
+DAT 1793673566
+ATT SMDC</a:History>
+<a:PackageOptionsText>[FolderOptions]
+
+[FolderOptions\Class Diagram Objects]
+GenerationCheckModel=Yes
+GenerationPath=
+GenerationOptions=
+GenerationTasks=
+GenerationTargets=
+GenerationSelections=</a:PackageOptionsText>
+<a:ModelOptionsText>[ModelOptions]
+
+[ModelOptions\Cld]
+CaseSensitive=No
+DisplayName=Yes
+EnableTrans=No
+UseTerm=No
+EnableRequirements=No
+EnableFullShortcut=Yes
+SynchroCode=Yes
+ShowClss=No
+DeftAttr=int
+DeftMthd=
+DeftParm=int
+DeftCont=
+DomnDttp=Yes
+DomnChck=No
+DomnRule=No
+SupportDelay=No
+PreviewEditable=Yes
+AutoRealize=No
+DttpFullName=Yes
+DeftClssAttrVisi=private
+VBNetPreprocessingSymbols=
+CSharpPreprocessingSymbols=
+
+[ModelOptions\Cld\NamingOptionsTemplates]
+
+[ModelOptions\Cld\ClssNamingOptions]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPCKG]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPCKG\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPCKG\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" +-*/!=&lt;&gt;'""()."
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDDOMN]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDDOMN\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDDOMN\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" +-*/!=&lt;&gt;'""()."
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDCLASS]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDCLASS\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDCLASS\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" +-*/!=&lt;&gt;'""()."
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDINTF]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDINTF\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDINTF\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" +-*/!=&lt;&gt;'""()."
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\UCDACTR]
+
+[ModelOptions\Cld\ClssNamingOptions\UCDACTR\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\UCDACTR\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" +-*/!=&lt;&gt;'""()."
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\UCDUCAS]
+
+[ModelOptions\Cld\ClssNamingOptions\UCDUCAS\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\UCDUCAS\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" +-*/!=&lt;&gt;'""()."
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\SQDOBJT]
+
+[ModelOptions\Cld\ClssNamingOptions\SQDOBJT\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\SQDOBJT\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" +-*/!=&lt;&gt;'""()."
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\SQDMSSG]
+
+[ModelOptions\Cld\ClssNamingOptions\SQDMSSG\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\SQDMSSG\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" +-*/!=&lt;&gt;'""()."
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CPDCOMP]
+
+[ModelOptions\Cld\ClssNamingOptions\CPDCOMP\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CPDCOMP\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" +-*/!=&lt;&gt;'""()."
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDATTR]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDATTR\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDATTR\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" +-*/!=&lt;&gt;'""()."
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDMETHOD]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDMETHOD\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDMETHOD\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" +-*/!=&lt;&gt;'""()."
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPARM]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPARM\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPARM\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" +-*/!=&lt;&gt;'""()."
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPORT]
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPORT\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPORT\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" +-*/!=&lt;&gt;'""()."
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPART]
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPART\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPART\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" +-*/!=&lt;&gt;'""()."
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDASSC]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDASSC\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\CLDASSC\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" +-*/!=&lt;&gt;'""()."
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\UCDASSC]
+
+[ModelOptions\Cld\ClssNamingOptions\UCDASSC\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\UCDASSC\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" +-*/!=&lt;&gt;'""()."
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\GNRLLINK]
+
+[ModelOptions\Cld\ClssNamingOptions\GNRLLINK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\GNRLLINK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" +-*/!=&lt;&gt;'""()."
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\RQLINK]
+
+[ModelOptions\Cld\ClssNamingOptions\RQLINK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\RQLINK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" +-*/!=&lt;&gt;'""()."
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\RLZSLINK]
+
+[ModelOptions\Cld\ClssNamingOptions\RLZSLINK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\RLZSLINK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" +-*/!=&lt;&gt;'""()."
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DEPDLINK]
+
+[ModelOptions\Cld\ClssNamingOptions\DEPDLINK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DEPDLINK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" +-*/!=&lt;&gt;'""()."
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMACTV]
+
+[ModelOptions\Cld\ClssNamingOptions\OOMACTV\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMACTV\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" +-*/!=&lt;&gt;'""()."
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\ACDOBST]
+
+[ModelOptions\Cld\ClssNamingOptions\ACDOBST\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\ACDOBST\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" +-*/!=&lt;&gt;'""()."
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\STAT]
+
+[ModelOptions\Cld\ClssNamingOptions\STAT\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\STAT\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" +-*/!=&lt;&gt;'""()."
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DPDNODE]
+
+[ModelOptions\Cld\ClssNamingOptions\DPDNODE\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DPDNODE\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" +-*/!=&lt;&gt;'""()."
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DPDCMPI]
+
+[ModelOptions\Cld\ClssNamingOptions\DPDCMPI\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DPDCMPI\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" +-*/!=&lt;&gt;'""()."
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DPDASSC]
+
+[ModelOptions\Cld\ClssNamingOptions\DPDASSC\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DPDASSC\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" +-*/!=&lt;&gt;'""()."
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMVAR]
+
+[ModelOptions\Cld\ClssNamingOptions\OOMVAR\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\OOMVAR\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" +-*/!=&lt;&gt;'""()."
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\FILO]
+
+[ModelOptions\Cld\ClssNamingOptions\FILO\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar="\/:*?&lt;&gt;|"
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\FILO\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_. "
+InvldChar=" +-*/!=&lt;&gt;'""()."
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\FRMEOBJ]
+
+[ModelOptions\Cld\ClssNamingOptions\FRMEOBJ\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\FRMEOBJ\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" +-*/!=&lt;&gt;'""()."
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\FRMELNK]
+
+[ModelOptions\Cld\ClssNamingOptions\FRMELNK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\FRMELNK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" +-*/!=&lt;&gt;'""()."
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DefaultClass]
+
+[ModelOptions\Cld\ClssNamingOptions\DefaultClass\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,"_")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Cld\ClssNamingOptions\DefaultClass\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar='a'-'z','A'-'Z','0'-'9',"_"
+InvldChar=" +-*/!=&lt;&gt;'""()."
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%," ")
+ConvTable=
+ConvTablePath=%_HOME%\Resource Files\Conversion Tables
+
+[ModelOptions\Generate]
+
+[ModelOptions\Generate\Xsm]
+GenRootElement=Yes
+GenComplexType=No
+GenAttribute=Yes
+CheckModel=Yes
+SaveLinks=Yes
+ORMapping=No
+NameToCode=No
+
+[ModelOptions\Generate\Cdm]
+CheckModel=Yes
+SaveLinks=Yes
+NameToCode=No
+Notation=2
+
+[ModelOptions\Generate\Pdm]
+CheckModel=Yes
+SaveLinks=Yes
+ORMapping=No
+NameToCode=No
+BuildTrgr=No
+TablePrefix=
+IndxPKName=%TABLE%_PK
+IndxAKName=%TABLE%_AK
+IndxFKName=%REFR%_FK
+IndxThreshold=
+ColnFKName=%.3:PARENT%_%COLUMN%
+ColnFKNameUse=No</a:ModelOptionsText>
+<c:SequenceDiagrams><o:SequenceDiagram Id="o698"><a:ObjectID>40696490-6AA5-4A45-A259-D724B6970510</a:ObjectID><a:Name>Iniciar sesión</a:Name><a:Code>SEG_INICIAR_SESION</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><a:Comment>Escenario principal y validaciones relevantes del SIGH GR06. Basado en ERS y diagramas de actividad.</a:Comment><a:DisplayPreferences>[DisplayPreferences]
+[DisplayPreferences\SQD]
+[DisplayPreferences\General]
+Adjust to text=Yes
+Snap Grid=No
+Constrain Labels=Yes
+Display Grid=No
+Show Page Delimiter=No
+Activate automatic link routing=Yes
+[DisplayPreferences\Object]
+ObjtShowStrn=Yes
+MssgShowName=Yes
+MssgShowStrn=Yes
+MssgShowCond=Yes</a:DisplayPreferences><a:PaperSize>(11000, 17000)</a:PaperSize><a:PageMargins>((315,354), (433,354))</a:PageMargins><a:PageOrientation>2</a:PageOrientation><a:PaperSource>15</a:PaperSource><c:Symbols><o:InteractionSymbol Id="o699"><a:Rect>((-2000,-31800), (76000,13500))</a:Rect><a:BaseSymbol.Flags>4</a:BaseSymbol.Flags><a:LineColor>15257808</a:LineColor><a:FillColor>16777215</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N</a:FontList><a:BrushStyle>4</a:BrushStyle><c:Object><o:SequenceDiagram Ref="o698"/></c:Object></o:InteractionSymbol><o:UMLObjectSequenceSymbol Id="o701"><a:Rect>((-700,8400), (5700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o702"><a:Rect>((2450,-29600), (2550,8400))</a:Rect><a:ListOfPoints>((2500,8400),(2500,-29600))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o700"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o704"><a:Rect>((15300,8400), (21700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o705"><a:Rect>((18450,-29600), (18550,8400))</a:Rect><a:ListOfPoints>((18500,8400),(18500,-29600))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o703"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o707"><a:Rect>((31300,8400), (37700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o708"><a:Rect>((34450,-29600), (34550,8400))</a:Rect><a:ListOfPoints>((34500,8400),(34500,-29600))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o706"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o710"><a:Rect>((47300,8400), (53700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o711"><a:Rect>((50450,-29600), (50550,8400))</a:Rect><a:ListOfPoints>((50500,8400),(50500,-29600))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o709"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o713"><a:Rect>((63300,8400), (69700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o714"><a:Rect>((66450,-29600), (66550,8400))</a:Rect><a:ListOfPoints>((66500,8400),(66500,-29600))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o712"/></c:Object></o:UMLObjectSequenceSymbol><o:MessageSymbol Id="o716"><a:Rect>((1950,3450), (19050,4750))</a:Rect><a:ListOfPoints>((2500,4100),(18500,4100))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o701"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o704"/></c:DestinationSymbol><c:Object><o:Message Ref="o715"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o718"><a:Rect>((17950,1350), (35050,2650))</a:Rect><a:ListOfPoints>((18500,2000),(34500,2000))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o704"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o707"/></c:DestinationSymbol><c:Object><o:Message Ref="o717"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o720"><a:Rect>((33950,-750), (51050,550))</a:Rect><a:ListOfPoints>((34500,-100),(50500,-100))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o707"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o710"/></c:DestinationSymbol><c:Object><o:Message Ref="o719"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o722"><a:Rect>((33950,-2850), (51050,-1550))</a:Rect><a:ListOfPoints>((50500,-2200),(34500,-2200))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o710"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o707"/></c:DestinationSymbol><c:Object><o:Message Ref="o721"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o724"><a:Rect>((33950,-4950), (35050,-3650))</a:Rect><a:ListOfPoints>((34500,-4300),(36900,-4300),(36900,-4850),(34500,-4850))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o707"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o707"/></c:DestinationSymbol><c:Object><o:Message Ref="o723"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o726"><a:Rect>((33950,-7050), (67050,-5750))</a:Rect><a:ListOfPoints>((34500,-6400),(66500,-6400))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o707"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o713"/></c:DestinationSymbol><c:Object><o:Message Ref="o725"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o728"><a:Rect>((17950,-9150), (35050,-7850))</a:Rect><a:ListOfPoints>((34500,-8500),(18500,-8500))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o707"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o704"/></c:DestinationSymbol><c:Object><o:Message Ref="o727"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o730"><a:Rect>((1950,-11250), (19050,-9950))</a:Rect><a:ListOfPoints>((18500,-10600),(2500,-10600))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o704"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o701"/></c:DestinationSymbol><c:Object><o:Message Ref="o729"/></c:Object></o:MessageSymbol></c:Symbols></o:SequenceDiagram><o:SequenceDiagram Id="o731"><a:ObjectID>941C1883-2AEE-49A1-AFAF-3A3B53F78992</a:ObjectID><a:Name>Registrar paciente y admisión</a:Name><a:Code>PAC_REGISTRAR_ADMISION</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><a:Comment>Escenario principal y validaciones relevantes del SIGH GR06. Basado en ERS y diagramas de actividad.</a:Comment><a:DisplayPreferences>[DisplayPreferences]
+[DisplayPreferences\SQD]
+[DisplayPreferences\General]
+Adjust to text=Yes
+Snap Grid=No
+Constrain Labels=Yes
+Display Grid=No
+Show Page Delimiter=No
+Activate automatic link routing=Yes
+[DisplayPreferences\Object]
+ObjtShowStrn=Yes
+MssgShowName=Yes
+MssgShowStrn=Yes
+MssgShowCond=Yes</a:DisplayPreferences><a:PaperSize>(11000, 17000)</a:PaperSize><a:PageMargins>((315,354), (433,354))</a:PageMargins><a:PageOrientation>2</a:PageOrientation><a:PaperSource>15</a:PaperSource><c:Symbols><o:InteractionSymbol Id="o732"><a:Rect>((-2000,-36000), (76000,13500))</a:Rect><a:BaseSymbol.Flags>4</a:BaseSymbol.Flags><a:LineColor>15257808</a:LineColor><a:FillColor>16777215</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N</a:FontList><a:BrushStyle>4</a:BrushStyle><c:Object><o:SequenceDiagram Ref="o731"/></c:Object></o:InteractionSymbol><o:UMLObjectSequenceSymbol Id="o734"><a:Rect>((-700,8400), (5700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o735"><a:Rect>((2450,-33800), (2550,8400))</a:Rect><a:ListOfPoints>((2500,8400),(2500,-33800))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o733"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o737"><a:Rect>((15300,8400), (21700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o738"><a:Rect>((18450,-33800), (18550,8400))</a:Rect><a:ListOfPoints>((18500,8400),(18500,-33800))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o736"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o740"><a:Rect>((31300,8400), (37700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o741"><a:Rect>((34450,-33800), (34550,8400))</a:Rect><a:ListOfPoints>((34500,8400),(34500,-33800))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o739"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o743"><a:Rect>((47300,8400), (53700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o744"><a:Rect>((50450,-33800), (50550,8400))</a:Rect><a:ListOfPoints>((50500,8400),(50500,-33800))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o742"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o746"><a:Rect>((63300,8400), (69700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o747"><a:Rect>((66450,-33800), (66550,8400))</a:Rect><a:ListOfPoints>((66500,8400),(66500,-33800))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o745"/></c:Object></o:UMLObjectSequenceSymbol><o:MessageSymbol Id="o749"><a:Rect>((1950,3450), (19050,4750))</a:Rect><a:ListOfPoints>((2500,4100),(18500,4100))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o734"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o737"/></c:DestinationSymbol><c:Object><o:Message Ref="o748"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o751"><a:Rect>((17950,1350), (35050,2650))</a:Rect><a:ListOfPoints>((18500,2000),(34500,2000))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o737"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o740"/></c:DestinationSymbol><c:Object><o:Message Ref="o750"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o753"><a:Rect>((33950,-750), (51050,550))</a:Rect><a:ListOfPoints>((34500,-100),(50500,-100))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o740"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o743"/></c:DestinationSymbol><c:Object><o:Message Ref="o752"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o755"><a:Rect>((33950,-2850), (51050,-1550))</a:Rect><a:ListOfPoints>((50500,-2200),(34500,-2200))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o743"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o740"/></c:DestinationSymbol><c:Object><o:Message Ref="o754"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o757"><a:Rect>((17950,-4950), (35050,-3650))</a:Rect><a:ListOfPoints>((34500,-4300),(18500,-4300))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o740"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o737"/></c:DestinationSymbol><c:Object><o:Message Ref="o756"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o759"><a:Rect>((1950,-7050), (19050,-5750))</a:Rect><a:ListOfPoints>((2500,-6400),(18500,-6400))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o734"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o737"/></c:DestinationSymbol><c:Object><o:Message Ref="o758"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o761"><a:Rect>((17950,-9150), (35050,-7850))</a:Rect><a:ListOfPoints>((18500,-8500),(34500,-8500))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o737"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o740"/></c:DestinationSymbol><c:Object><o:Message Ref="o760"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o763"><a:Rect>((33950,-11250), (51050,-9950))</a:Rect><a:ListOfPoints>((34500,-10600),(50500,-10600))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o740"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o743"/></c:DestinationSymbol><c:Object><o:Message Ref="o762"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o765"><a:Rect>((33950,-13350), (67050,-12050))</a:Rect><a:ListOfPoints>((34500,-12700),(66500,-12700))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o740"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o746"/></c:DestinationSymbol><c:Object><o:Message Ref="o764"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o767"><a:Rect>((17950,-15450), (35050,-14150))</a:Rect><a:ListOfPoints>((34500,-14800),(18500,-14800))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o740"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o737"/></c:DestinationSymbol><c:Object><o:Message Ref="o766"/></c:Object></o:MessageSymbol></c:Symbols></o:SequenceDiagram><o:SequenceDiagram Id="o768"><a:ObjectID>BC8458B0-5D33-4C12-9252-7D2FB351D00F</a:ObjectID><a:Name>Programar o reprogramar cita</a:Name><a:Code>CIT_PROGRAMAR_CITA</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><a:Comment>Escenario principal y validaciones relevantes del SIGH GR06. Basado en ERS y diagramas de actividad.</a:Comment><a:DisplayPreferences>[DisplayPreferences]
+[DisplayPreferences\SQD]
+[DisplayPreferences\General]
+Adjust to text=Yes
+Snap Grid=No
+Constrain Labels=Yes
+Display Grid=No
+Show Page Delimiter=No
+Activate automatic link routing=Yes
+[DisplayPreferences\Object]
+ObjtShowStrn=Yes
+MssgShowName=Yes
+MssgShowStrn=Yes
+MssgShowCond=Yes</a:DisplayPreferences><a:PaperSize>(11000, 17000)</a:PaperSize><a:PageMargins>((315,354), (433,354))</a:PageMargins><a:PageOrientation>2</a:PageOrientation><a:PaperSource>15</a:PaperSource><c:Symbols><o:InteractionSymbol Id="o769"><a:Rect>((-2000,-33900), (76000,13500))</a:Rect><a:BaseSymbol.Flags>4</a:BaseSymbol.Flags><a:LineColor>15257808</a:LineColor><a:FillColor>16777215</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N</a:FontList><a:BrushStyle>4</a:BrushStyle><c:Object><o:SequenceDiagram Ref="o768"/></c:Object></o:InteractionSymbol><o:UMLObjectSequenceSymbol Id="o771"><a:Rect>((-700,8400), (5700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o772"><a:Rect>((2450,-31700), (2550,8400))</a:Rect><a:ListOfPoints>((2500,8400),(2500,-31700))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o770"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o774"><a:Rect>((15300,8400), (21700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o775"><a:Rect>((18450,-31700), (18550,8400))</a:Rect><a:ListOfPoints>((18500,8400),(18500,-31700))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o773"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o777"><a:Rect>((31300,8400), (37700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o778"><a:Rect>((34450,-31700), (34550,8400))</a:Rect><a:ListOfPoints>((34500,8400),(34500,-31700))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o776"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o780"><a:Rect>((47300,8400), (53700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o781"><a:Rect>((50450,-31700), (50550,8400))</a:Rect><a:ListOfPoints>((50500,8400),(50500,-31700))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o779"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o783"><a:Rect>((63300,8400), (69700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o784"><a:Rect>((66450,-31700), (66550,8400))</a:Rect><a:ListOfPoints>((66500,8400),(66500,-31700))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o782"/></c:Object></o:UMLObjectSequenceSymbol><o:MessageSymbol Id="o786"><a:Rect>((1950,3450), (19050,4750))</a:Rect><a:ListOfPoints>((2500,4100),(18500,4100))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o771"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o774"/></c:DestinationSymbol><c:Object><o:Message Ref="o785"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o788"><a:Rect>((17950,1350), (35050,2650))</a:Rect><a:ListOfPoints>((18500,2000),(34500,2000))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o774"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o777"/></c:DestinationSymbol><c:Object><o:Message Ref="o787"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o790"><a:Rect>((33950,-750), (51050,550))</a:Rect><a:ListOfPoints>((34500,-100),(50500,-100))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o777"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o780"/></c:DestinationSymbol><c:Object><o:Message Ref="o789"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o792"><a:Rect>((33950,-2850), (51050,-1550))</a:Rect><a:ListOfPoints>((50500,-2200),(34500,-2200))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o780"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o777"/></c:DestinationSymbol><c:Object><o:Message Ref="o791"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o794"><a:Rect>((17950,-4950), (35050,-3650))</a:Rect><a:ListOfPoints>((18500,-4300),(34500,-4300))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o774"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o777"/></c:DestinationSymbol><c:Object><o:Message Ref="o793"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o796"><a:Rect>((33950,-7050), (51050,-5750))</a:Rect><a:ListOfPoints>((34500,-6400),(50500,-6400))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o777"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o780"/></c:DestinationSymbol><c:Object><o:Message Ref="o795"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o798"><a:Rect>((33950,-9150), (51050,-7850))</a:Rect><a:ListOfPoints>((50500,-8500),(34500,-8500))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o780"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o777"/></c:DestinationSymbol><c:Object><o:Message Ref="o797"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o800"><a:Rect>((33950,-11250), (67050,-9950))</a:Rect><a:ListOfPoints>((34500,-10600),(66500,-10600))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o777"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o783"/></c:DestinationSymbol><c:Object><o:Message Ref="o799"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o802"><a:Rect>((17950,-13350), (35050,-12050))</a:Rect><a:ListOfPoints>((34500,-12700),(18500,-12700))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o777"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o774"/></c:DestinationSymbol><c:Object><o:Message Ref="o801"/></c:Object></o:MessageSymbol></c:Symbols></o:SequenceDiagram><o:SequenceDiagram Id="o803"><a:ObjectID>40828255-498D-41C8-91DD-C4F8FBE4F0BD</a:ObjectID><a:Name>Registrar consulta clínica</a:Name><a:Code>HC_REGISTRAR_CONSULTA</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><a:Comment>Escenario principal y validaciones relevantes del SIGH GR06. Basado en ERS y diagramas de actividad.</a:Comment><a:DisplayPreferences>[DisplayPreferences]
+[DisplayPreferences\SQD]
+[DisplayPreferences\General]
+Adjust to text=Yes
+Snap Grid=No
+Constrain Labels=Yes
+Display Grid=No
+Show Page Delimiter=No
+Activate automatic link routing=Yes
+[DisplayPreferences\Object]
+ObjtShowStrn=Yes
+MssgShowName=Yes
+MssgShowStrn=Yes
+MssgShowCond=Yes</a:DisplayPreferences><a:PaperSize>(11000, 17000)</a:PaperSize><a:PageMargins>((315,354), (433,354))</a:PageMargins><a:PageOrientation>2</a:PageOrientation><a:PaperSource>15</a:PaperSource><c:Symbols><o:InteractionSymbol Id="o804"><a:Rect>((-2000,-36000), (76000,13500))</a:Rect><a:BaseSymbol.Flags>4</a:BaseSymbol.Flags><a:LineColor>15257808</a:LineColor><a:FillColor>16777215</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N</a:FontList><a:BrushStyle>4</a:BrushStyle><c:Object><o:SequenceDiagram Ref="o803"/></c:Object></o:InteractionSymbol><o:UMLObjectSequenceSymbol Id="o806"><a:Rect>((-700,8400), (5700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o807"><a:Rect>((2450,-33800), (2550,8400))</a:Rect><a:ListOfPoints>((2500,8400),(2500,-33800))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o805"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o809"><a:Rect>((15300,8400), (21700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o810"><a:Rect>((18450,-33800), (18550,8400))</a:Rect><a:ListOfPoints>((18500,8400),(18500,-33800))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o808"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o812"><a:Rect>((31300,8400), (37700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o813"><a:Rect>((34450,-33800), (34550,8400))</a:Rect><a:ListOfPoints>((34500,8400),(34500,-33800))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o811"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o815"><a:Rect>((47300,8400), (53700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o816"><a:Rect>((50450,-33800), (50550,8400))</a:Rect><a:ListOfPoints>((50500,8400),(50500,-33800))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o814"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o818"><a:Rect>((63300,8400), (69700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o819"><a:Rect>((66450,-33800), (66550,8400))</a:Rect><a:ListOfPoints>((66500,8400),(66500,-33800))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o817"/></c:Object></o:UMLObjectSequenceSymbol><o:MessageSymbol Id="o821"><a:Rect>((1950,3450), (19050,4750))</a:Rect><a:ListOfPoints>((2500,4100),(18500,4100))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o806"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o809"/></c:DestinationSymbol><c:Object><o:Message Ref="o820"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o823"><a:Rect>((17950,1350), (35050,2650))</a:Rect><a:ListOfPoints>((18500,2000),(34500,2000))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o809"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o812"/></c:DestinationSymbol><c:Object><o:Message Ref="o822"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o825"><a:Rect>((33950,-750), (51050,550))</a:Rect><a:ListOfPoints>((34500,-100),(50500,-100))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o812"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o815"/></c:DestinationSymbol><c:Object><o:Message Ref="o824"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o827"><a:Rect>((33950,-2850), (51050,-1550))</a:Rect><a:ListOfPoints>((50500,-2200),(34500,-2200))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o815"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o812"/></c:DestinationSymbol><c:Object><o:Message Ref="o826"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o829"><a:Rect>((1950,-4950), (19050,-3650))</a:Rect><a:ListOfPoints>((2500,-4300),(18500,-4300))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o806"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o809"/></c:DestinationSymbol><c:Object><o:Message Ref="o828"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o831"><a:Rect>((17950,-7050), (35050,-5750))</a:Rect><a:ListOfPoints>((18500,-6400),(34500,-6400))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o809"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o812"/></c:DestinationSymbol><c:Object><o:Message Ref="o830"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o833"><a:Rect>((33950,-9150), (51050,-7850))</a:Rect><a:ListOfPoints>((34500,-8500),(50500,-8500))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o812"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o815"/></c:DestinationSymbol><c:Object><o:Message Ref="o832"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o835"><a:Rect>((1950,-11250), (19050,-9950))</a:Rect><a:ListOfPoints>((2500,-10600),(18500,-10600))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o806"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o809"/></c:DestinationSymbol><c:Object><o:Message Ref="o834"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o837"><a:Rect>((33950,-13350), (67050,-12050))</a:Rect><a:ListOfPoints>((34500,-12700),(66500,-12700))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o812"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o818"/></c:DestinationSymbol><c:Object><o:Message Ref="o836"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o839"><a:Rect>((17950,-15450), (35050,-14150))</a:Rect><a:ListOfPoints>((34500,-14800),(18500,-14800))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o812"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o809"/></c:DestinationSymbol><c:Object><o:Message Ref="o838"/></c:Object></o:MessageSymbol></c:Symbols></o:SequenceDiagram><o:SequenceDiagram Id="o840"><a:ObjectID>DBB08B34-C452-4A3F-941B-226AB5C22D85</a:ObjectID><a:Name>Solicitar y validar laboratorio</a:Name><a:Code>LAB_SOLICITUD_RESULTADO</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><a:Comment>Escenario principal y validaciones relevantes del SIGH GR06. Basado en ERS y diagramas de actividad.</a:Comment><a:DisplayPreferences>[DisplayPreferences]
+[DisplayPreferences\SQD]
+[DisplayPreferences\General]
+Adjust to text=Yes
+Snap Grid=No
+Constrain Labels=Yes
+Display Grid=No
+Show Page Delimiter=No
+Activate automatic link routing=Yes
+[DisplayPreferences\Object]
+ObjtShowStrn=Yes
+MssgShowName=Yes
+MssgShowStrn=Yes
+MssgShowCond=Yes</a:DisplayPreferences><a:PaperSize>(11000, 17000)</a:PaperSize><a:PageMargins>((315,354), (433,354))</a:PageMargins><a:PageOrientation>2</a:PageOrientation><a:PaperSource>15</a:PaperSource><c:Symbols><o:InteractionSymbol Id="o841"><a:Rect>((-2000,-33900), (76000,13500))</a:Rect><a:BaseSymbol.Flags>4</a:BaseSymbol.Flags><a:LineColor>15257808</a:LineColor><a:FillColor>16777215</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N</a:FontList><a:BrushStyle>4</a:BrushStyle><c:Object><o:SequenceDiagram Ref="o840"/></c:Object></o:InteractionSymbol><o:UMLObjectSequenceSymbol Id="o843"><a:Rect>((-700,8400), (5700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o844"><a:Rect>((2450,-31700), (2550,8400))</a:Rect><a:ListOfPoints>((2500,8400),(2500,-31700))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o842"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o846"><a:Rect>((15300,8400), (21700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o847"><a:Rect>((18450,-31700), (18550,8400))</a:Rect><a:ListOfPoints>((18500,8400),(18500,-31700))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o845"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o849"><a:Rect>((31300,8400), (37700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o850"><a:Rect>((34450,-31700), (34550,8400))</a:Rect><a:ListOfPoints>((34500,8400),(34500,-31700))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o848"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o852"><a:Rect>((47300,8400), (53700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o853"><a:Rect>((50450,-31700), (50550,8400))</a:Rect><a:ListOfPoints>((50500,8400),(50500,-31700))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o851"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o855"><a:Rect>((63300,8400), (69700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o856"><a:Rect>((66450,-31700), (66550,8400))</a:Rect><a:ListOfPoints>((66500,8400),(66500,-31700))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o854"/></c:Object></o:UMLObjectSequenceSymbol><o:MessageSymbol Id="o858"><a:Rect>((1950,3450), (19050,4750))</a:Rect><a:ListOfPoints>((2500,4100),(18500,4100))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o843"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o846"/></c:DestinationSymbol><c:Object><o:Message Ref="o857"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o860"><a:Rect>((17950,1350), (35050,2650))</a:Rect><a:ListOfPoints>((18500,2000),(34500,2000))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o846"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o849"/></c:DestinationSymbol><c:Object><o:Message Ref="o859"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o862"><a:Rect>((33950,-750), (51050,550))</a:Rect><a:ListOfPoints>((34500,-100),(50500,-100))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o849"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o852"/></c:DestinationSymbol><c:Object><o:Message Ref="o861"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o864"><a:Rect>((17950,-2850), (51050,-1550))</a:Rect><a:ListOfPoints>((50500,-2200),(18500,-2200))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o852"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o846"/></c:DestinationSymbol><c:Object><o:Message Ref="o863"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o866"><a:Rect>((17950,-4950), (51050,-3650))</a:Rect><a:ListOfPoints>((50500,-4300),(18500,-4300))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o852"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o846"/></c:DestinationSymbol><c:Object><o:Message Ref="o865"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o868"><a:Rect>((17950,-7050), (19050,-5750))</a:Rect><a:ListOfPoints>((18500,-6400),(20900,-6400),(20900,-6950),(18500,-6950))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o846"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o846"/></c:DestinationSymbol><c:Object><o:Message Ref="o867"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o870"><a:Rect>((17950,-9150), (51050,-7850))</a:Rect><a:ListOfPoints>((50500,-8500),(18500,-8500))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o852"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o846"/></c:DestinationSymbol><c:Object><o:Message Ref="o869"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o872"><a:Rect>((17950,-11250), (67050,-9950))</a:Rect><a:ListOfPoints>((18500,-10600),(66500,-10600))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o846"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o855"/></c:DestinationSymbol><c:Object><o:Message Ref="o871"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o874"><a:Rect>((1950,-13350), (19050,-12050))</a:Rect><a:ListOfPoints>((18500,-12700),(2500,-12700))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o846"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o843"/></c:DestinationSymbol><c:Object><o:Message Ref="o873"/></c:Object></o:MessageSymbol></c:Symbols></o:SequenceDiagram><o:SequenceDiagram Id="o875"><a:ObjectID>1A25B504-F933-41F5-84CE-9918DC17D1FD</a:ObjectID><a:Name>Gestionar imagenología</a:Name><a:Code>IMG_GESTIONAR_ESTUDIOS</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><a:Comment>Escenario principal y validaciones relevantes del SIGH GR06. Basado en ERS y diagramas de actividad.</a:Comment><a:DisplayPreferences>[DisplayPreferences]
+[DisplayPreferences\SQD]
+[DisplayPreferences\General]
+Adjust to text=Yes
+Snap Grid=No
+Constrain Labels=Yes
+Display Grid=No
+Show Page Delimiter=No
+Activate automatic link routing=Yes
+[DisplayPreferences\Object]
+ObjtShowStrn=Yes
+MssgShowName=Yes
+MssgShowStrn=Yes
+MssgShowCond=Yes</a:DisplayPreferences><a:PaperSize>(11000, 17000)</a:PaperSize><a:PageMargins>((315,354), (433,354))</a:PageMargins><a:PageOrientation>2</a:PageOrientation><a:PaperSource>15</a:PaperSource><c:Symbols><o:InteractionSymbol Id="o876"><a:Rect>((-2000,-29700), (76000,13500))</a:Rect><a:BaseSymbol.Flags>4</a:BaseSymbol.Flags><a:LineColor>15257808</a:LineColor><a:FillColor>16777215</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N</a:FontList><a:BrushStyle>4</a:BrushStyle><c:Object><o:SequenceDiagram Ref="o875"/></c:Object></o:InteractionSymbol><o:UMLObjectSequenceSymbol Id="o878"><a:Rect>((-700,8400), (5700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o879"><a:Rect>((2450,-27500), (2550,8400))</a:Rect><a:ListOfPoints>((2500,8400),(2500,-27500))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o877"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o881"><a:Rect>((15300,8400), (21700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o882"><a:Rect>((18450,-27500), (18550,8400))</a:Rect><a:ListOfPoints>((18500,8400),(18500,-27500))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o880"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o884"><a:Rect>((31300,8400), (37700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o885"><a:Rect>((34450,-27500), (34550,8400))</a:Rect><a:ListOfPoints>((34500,8400),(34500,-27500))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o883"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o887"><a:Rect>((47300,8400), (53700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o888"><a:Rect>((50450,-27500), (50550,8400))</a:Rect><a:ListOfPoints>((50500,8400),(50500,-27500))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o886"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o890"><a:Rect>((63300,8400), (69700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o891"><a:Rect>((66450,-27500), (66550,8400))</a:Rect><a:ListOfPoints>((66500,8400),(66500,-27500))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o889"/></c:Object></o:UMLObjectSequenceSymbol><o:MessageSymbol Id="o893"><a:Rect>((1950,3450), (19050,4750))</a:Rect><a:ListOfPoints>((2500,4100),(18500,4100))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o878"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o881"/></c:DestinationSymbol><c:Object><o:Message Ref="o892"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o895"><a:Rect>((17950,1350), (35050,2650))</a:Rect><a:ListOfPoints>((18500,2000),(34500,2000))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o881"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o884"/></c:DestinationSymbol><c:Object><o:Message Ref="o894"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o897"><a:Rect>((33950,-750), (51050,550))</a:Rect><a:ListOfPoints>((34500,-100),(50500,-100))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o884"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o887"/></c:DestinationSymbol><c:Object><o:Message Ref="o896"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o899"><a:Rect>((17950,-2850), (51050,-1550))</a:Rect><a:ListOfPoints>((50500,-2200),(18500,-2200))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o887"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o881"/></c:DestinationSymbol><c:Object><o:Message Ref="o898"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o901"><a:Rect>((17950,-4950), (51050,-3650))</a:Rect><a:ListOfPoints>((50500,-4300),(18500,-4300))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o887"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o881"/></c:DestinationSymbol><c:Object><o:Message Ref="o900"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o903"><a:Rect>((17950,-7050), (67050,-5750))</a:Rect><a:ListOfPoints>((18500,-6400),(66500,-6400))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o881"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o890"/></c:DestinationSymbol><c:Object><o:Message Ref="o902"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o905"><a:Rect>((1950,-9150), (19050,-7850))</a:Rect><a:ListOfPoints>((18500,-8500),(2500,-8500))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o881"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o878"/></c:DestinationSymbol><c:Object><o:Message Ref="o904"/></c:Object></o:MessageSymbol></c:Symbols></o:SequenceDiagram><o:SequenceDiagram Id="o906"><a:ObjectID>61AAA701-D9E1-46EE-A633-5667B265E9CD</a:ObjectID><a:Name>Prescribir y dispensar medicamentos</a:Name><a:Code>FAR_DISPENSACION</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><a:Comment>Escenario principal y validaciones relevantes del SIGH GR06. Basado en ERS y diagramas de actividad.</a:Comment><a:DisplayPreferences>[DisplayPreferences]
+[DisplayPreferences\SQD]
+[DisplayPreferences\General]
+Adjust to text=Yes
+Snap Grid=No
+Constrain Labels=Yes
+Display Grid=No
+Show Page Delimiter=No
+Activate automatic link routing=Yes
+[DisplayPreferences\Object]
+ObjtShowStrn=Yes
+MssgShowName=Yes
+MssgShowStrn=Yes
+MssgShowCond=Yes</a:DisplayPreferences><a:PaperSize>(11000, 17000)</a:PaperSize><a:PageMargins>((315,354), (433,354))</a:PageMargins><a:PageOrientation>2</a:PageOrientation><a:PaperSource>15</a:PaperSource><c:Symbols><o:InteractionSymbol Id="o907"><a:Rect>((-2000,-36000), (76000,13500))</a:Rect><a:BaseSymbol.Flags>4</a:BaseSymbol.Flags><a:LineColor>15257808</a:LineColor><a:FillColor>16777215</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N</a:FontList><a:BrushStyle>4</a:BrushStyle><c:Object><o:SequenceDiagram Ref="o906"/></c:Object></o:InteractionSymbol><o:UMLObjectSequenceSymbol Id="o909"><a:Rect>((-700,8400), (5700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o910"><a:Rect>((2450,-33800), (2550,8400))</a:Rect><a:ListOfPoints>((2500,8400),(2500,-33800))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o908"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o912"><a:Rect>((15300,8400), (21700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o913"><a:Rect>((18450,-33800), (18550,8400))</a:Rect><a:ListOfPoints>((18500,8400),(18500,-33800))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o911"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o915"><a:Rect>((31300,8400), (37700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o916"><a:Rect>((34450,-33800), (34550,8400))</a:Rect><a:ListOfPoints>((34500,8400),(34500,-33800))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o914"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o918"><a:Rect>((47300,8400), (53700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o919"><a:Rect>((50450,-33800), (50550,8400))</a:Rect><a:ListOfPoints>((50500,8400),(50500,-33800))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o917"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o921"><a:Rect>((63300,8400), (69700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o922"><a:Rect>((66450,-33800), (66550,8400))</a:Rect><a:ListOfPoints>((66500,8400),(66500,-33800))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o920"/></c:Object></o:UMLObjectSequenceSymbol><o:MessageSymbol Id="o924"><a:Rect>((1950,3450), (19050,4750))</a:Rect><a:ListOfPoints>((2500,4100),(18500,4100))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o909"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o912"/></c:DestinationSymbol><c:Object><o:Message Ref="o923"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o926"><a:Rect>((17950,1350), (67050,2650))</a:Rect><a:ListOfPoints>((18500,2000),(66500,2000))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o912"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o921"/></c:DestinationSymbol><c:Object><o:Message Ref="o925"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o928"><a:Rect>((17950,-750), (35050,550))</a:Rect><a:ListOfPoints>((34500,-100),(18500,-100))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o915"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o912"/></c:DestinationSymbol><c:Object><o:Message Ref="o927"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o930"><a:Rect>((17950,-2850), (35050,-1550))</a:Rect><a:ListOfPoints>((18500,-2200),(34500,-2200))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o912"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o915"/></c:DestinationSymbol><c:Object><o:Message Ref="o929"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o932"><a:Rect>((33950,-4950), (51050,-3650))</a:Rect><a:ListOfPoints>((34500,-4300),(50500,-4300))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o915"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o918"/></c:DestinationSymbol><c:Object><o:Message Ref="o931"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o934"><a:Rect>((33950,-7050), (51050,-5750))</a:Rect><a:ListOfPoints>((50500,-6400),(34500,-6400))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o918"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o915"/></c:DestinationSymbol><c:Object><o:Message Ref="o933"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o936"><a:Rect>((33950,-9150), (51050,-7850))</a:Rect><a:ListOfPoints>((34500,-8500),(50500,-8500))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o915"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o918"/></c:DestinationSymbol><c:Object><o:Message Ref="o935"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o938"><a:Rect>((49950,-11250), (51050,-9950))</a:Rect><a:ListOfPoints>((50500,-10600),(52900,-10600),(52900,-11150),(50500,-11150))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o918"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o918"/></c:DestinationSymbol><c:Object><o:Message Ref="o937"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o940"><a:Rect>((49950,-13350), (67050,-12050))</a:Rect><a:ListOfPoints>((50500,-12700),(66500,-12700))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o918"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o921"/></c:DestinationSymbol><c:Object><o:Message Ref="o939"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o942"><a:Rect>((17950,-15450), (35050,-14150))</a:Rect><a:ListOfPoints>((34500,-14800),(18500,-14800))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o915"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o912"/></c:DestinationSymbol><c:Object><o:Message Ref="o941"/></c:Object></o:MessageSymbol></c:Symbols></o:SequenceDiagram><o:SequenceDiagram Id="o943"><a:ObjectID>E2EB9D81-098A-485D-8A23-779D39FF6803</a:ObjectID><a:Name>Hospitalizar y asignar cama</a:Name><a:Code>HOS_ASIGNAR_CAMA</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><a:Comment>Escenario principal y validaciones relevantes del SIGH GR06. Basado en ERS y diagramas de actividad.</a:Comment><a:DisplayPreferences>[DisplayPreferences]
+[DisplayPreferences\SQD]
+[DisplayPreferences\General]
+Adjust to text=Yes
+Snap Grid=No
+Constrain Labels=Yes
+Display Grid=No
+Show Page Delimiter=No
+Activate automatic link routing=Yes
+[DisplayPreferences\Object]
+ObjtShowStrn=Yes
+MssgShowName=Yes
+MssgShowStrn=Yes
+MssgShowCond=Yes</a:DisplayPreferences><a:PaperSize>(11000, 17000)</a:PaperSize><a:PageMargins>((315,354), (433,354))</a:PageMargins><a:PageOrientation>2</a:PageOrientation><a:PaperSource>15</a:PaperSource><c:Symbols><o:InteractionSymbol Id="o944"><a:Rect>((-2000,-33900), (76000,13500))</a:Rect><a:BaseSymbol.Flags>4</a:BaseSymbol.Flags><a:LineColor>15257808</a:LineColor><a:FillColor>16777215</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N</a:FontList><a:BrushStyle>4</a:BrushStyle><c:Object><o:SequenceDiagram Ref="o943"/></c:Object></o:InteractionSymbol><o:UMLObjectSequenceSymbol Id="o946"><a:Rect>((-700,8400), (5700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o947"><a:Rect>((2450,-31700), (2550,8400))</a:Rect><a:ListOfPoints>((2500,8400),(2500,-31700))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o945"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o949"><a:Rect>((15300,8400), (21700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o950"><a:Rect>((18450,-31700), (18550,8400))</a:Rect><a:ListOfPoints>((18500,8400),(18500,-31700))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o948"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o952"><a:Rect>((31300,8400), (37700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o953"><a:Rect>((34450,-31700), (34550,8400))</a:Rect><a:ListOfPoints>((34500,8400),(34500,-31700))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o951"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o955"><a:Rect>((47300,8400), (53700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o956"><a:Rect>((50450,-31700), (50550,8400))</a:Rect><a:ListOfPoints>((50500,8400),(50500,-31700))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o954"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o958"><a:Rect>((63300,8400), (69700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o959"><a:Rect>((66450,-31700), (66550,8400))</a:Rect><a:ListOfPoints>((66500,8400),(66500,-31700))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o957"/></c:Object></o:UMLObjectSequenceSymbol><o:MessageSymbol Id="o961"><a:Rect>((1950,3450), (19050,4750))</a:Rect><a:ListOfPoints>((2500,4100),(18500,4100))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o946"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o949"/></c:DestinationSymbol><c:Object><o:Message Ref="o960"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o963"><a:Rect>((17950,1350), (51050,2650))</a:Rect><a:ListOfPoints>((18500,2000),(50500,2000))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o949"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o955"/></c:DestinationSymbol><c:Object><o:Message Ref="o962"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o965"><a:Rect>((17950,-750), (35050,550))</a:Rect><a:ListOfPoints>((18500,-100),(34500,-100))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o949"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o952"/></c:DestinationSymbol><c:Object><o:Message Ref="o964"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o967"><a:Rect>((17950,-2850), (35050,-1550))</a:Rect><a:ListOfPoints>((34500,-2200),(18500,-2200))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o952"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o949"/></c:DestinationSymbol><c:Object><o:Message Ref="o966"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o969"><a:Rect>((1950,-4950), (19050,-3650))</a:Rect><a:ListOfPoints>((2500,-4300),(18500,-4300))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o946"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o949"/></c:DestinationSymbol><c:Object><o:Message Ref="o968"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o971"><a:Rect>((17950,-7050), (35050,-5750))</a:Rect><a:ListOfPoints>((18500,-6400),(34500,-6400))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o949"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o952"/></c:DestinationSymbol><c:Object><o:Message Ref="o970"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o973"><a:Rect>((17950,-9150), (35050,-7850))</a:Rect><a:ListOfPoints>((34500,-8500),(18500,-8500))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o952"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o949"/></c:DestinationSymbol><c:Object><o:Message Ref="o972"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o975"><a:Rect>((17950,-11250), (67050,-9950))</a:Rect><a:ListOfPoints>((18500,-10600),(66500,-10600))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o949"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o958"/></c:DestinationSymbol><c:Object><o:Message Ref="o974"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o977"><a:Rect>((1950,-13350), (19050,-12050))</a:Rect><a:ListOfPoints>((18500,-12700),(2500,-12700))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o949"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o946"/></c:DestinationSymbol><c:Object><o:Message Ref="o976"/></c:Object></o:MessageSymbol></c:Symbols></o:SequenceDiagram><o:SequenceDiagram Id="o978"><a:ObjectID>A7E1B74D-9914-4F41-9259-807A7EC5B310</a:ObjectID><a:Name>Programar cirugía</a:Name><a:Code>QUI_PROGRAMAR_CIRUGIA</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><a:Comment>Escenario principal y validaciones relevantes del SIGH GR06. Basado en ERS y diagramas de actividad.</a:Comment><a:DisplayPreferences>[DisplayPreferences]
+[DisplayPreferences\SQD]
+[DisplayPreferences\General]
+Adjust to text=Yes
+Snap Grid=No
+Constrain Labels=Yes
+Display Grid=No
+Show Page Delimiter=No
+Activate automatic link routing=Yes
+[DisplayPreferences\Object]
+ObjtShowStrn=Yes
+MssgShowName=Yes
+MssgShowStrn=Yes
+MssgShowCond=Yes</a:DisplayPreferences><a:PaperSize>(11000, 17000)</a:PaperSize><a:PageMargins>((315,354), (433,354))</a:PageMargins><a:PageOrientation>2</a:PageOrientation><a:PaperSource>15</a:PaperSource><c:Symbols><o:InteractionSymbol Id="o979"><a:Rect>((-2000,-31800), (76000,13500))</a:Rect><a:BaseSymbol.Flags>4</a:BaseSymbol.Flags><a:LineColor>15257808</a:LineColor><a:FillColor>16777215</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N</a:FontList><a:BrushStyle>4</a:BrushStyle><c:Object><o:SequenceDiagram Ref="o978"/></c:Object></o:InteractionSymbol><o:UMLObjectSequenceSymbol Id="o981"><a:Rect>((-700,8400), (5700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o982"><a:Rect>((2450,-29600), (2550,8400))</a:Rect><a:ListOfPoints>((2500,8400),(2500,-29600))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o980"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o984"><a:Rect>((15300,8400), (21700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o985"><a:Rect>((18450,-29600), (18550,8400))</a:Rect><a:ListOfPoints>((18500,8400),(18500,-29600))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o983"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o987"><a:Rect>((31300,8400), (37700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o988"><a:Rect>((34450,-29600), (34550,8400))</a:Rect><a:ListOfPoints>((34500,8400),(34500,-29600))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o986"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o990"><a:Rect>((47300,8400), (53700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o991"><a:Rect>((50450,-29600), (50550,8400))</a:Rect><a:ListOfPoints>((50500,8400),(50500,-29600))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o989"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o993"><a:Rect>((63300,8400), (69700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o994"><a:Rect>((66450,-29600), (66550,8400))</a:Rect><a:ListOfPoints>((66500,8400),(66500,-29600))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o992"/></c:Object></o:UMLObjectSequenceSymbol><o:MessageSymbol Id="o996"><a:Rect>((1950,3450), (19050,4750))</a:Rect><a:ListOfPoints>((2500,4100),(18500,4100))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o981"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o984"/></c:DestinationSymbol><c:Object><o:Message Ref="o995"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o998"><a:Rect>((17950,1350), (35050,2650))</a:Rect><a:ListOfPoints>((18500,2000),(34500,2000))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o984"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o987"/></c:DestinationSymbol><c:Object><o:Message Ref="o997"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o1000"><a:Rect>((17950,-750), (35050,550))</a:Rect><a:ListOfPoints>((34500,-100),(18500,-100))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o987"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o984"/></c:DestinationSymbol><c:Object><o:Message Ref="o999"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o1002"><a:Rect>((17950,-2850), (51050,-1550))</a:Rect><a:ListOfPoints>((18500,-2200),(50500,-2200))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o984"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o990"/></c:DestinationSymbol><c:Object><o:Message Ref="o1001"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o1004"><a:Rect>((17950,-4950), (35050,-3650))</a:Rect><a:ListOfPoints>((18500,-4300),(34500,-4300))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o984"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o987"/></c:DestinationSymbol><c:Object><o:Message Ref="o1003"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o1006"><a:Rect>((17950,-7050), (67050,-5750))</a:Rect><a:ListOfPoints>((18500,-6400),(66500,-6400))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o984"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o993"/></c:DestinationSymbol><c:Object><o:Message Ref="o1005"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o1008"><a:Rect>((17950,-9150), (51050,-7850))</a:Rect><a:ListOfPoints>((50500,-8500),(18500,-8500))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o990"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o984"/></c:DestinationSymbol><c:Object><o:Message Ref="o1007"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o1010"><a:Rect>((1950,-11250), (19050,-9950))</a:Rect><a:ListOfPoints>((18500,-10600),(2500,-10600))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o984"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o981"/></c:DestinationSymbol><c:Object><o:Message Ref="o1009"/></c:Object></o:MessageSymbol></c:Symbols></o:SequenceDiagram><o:SequenceDiagram Id="o1011"><a:ObjectID>4223FB97-0DC9-4CC0-85FC-A855AF4612C7</a:ObjectID><a:Name>Facturar atención y registrar pago</a:Name><a:Code>FAC_GENERAR_FACTURA</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><a:Comment>Escenario principal y validaciones relevantes del SIGH GR06. Basado en ERS y diagramas de actividad.</a:Comment><a:DisplayPreferences>[DisplayPreferences]
+[DisplayPreferences\SQD]
+[DisplayPreferences\General]
+Adjust to text=Yes
+Snap Grid=No
+Constrain Labels=Yes
+Display Grid=No
+Show Page Delimiter=No
+Activate automatic link routing=Yes
+[DisplayPreferences\Object]
+ObjtShowStrn=Yes
+MssgShowName=Yes
+MssgShowStrn=Yes
+MssgShowCond=Yes</a:DisplayPreferences><a:PaperSize>(11000, 17000)</a:PaperSize><a:PageMargins>((315,354), (433,354))</a:PageMargins><a:PageOrientation>2</a:PageOrientation><a:PaperSource>15</a:PaperSource><c:Symbols><o:InteractionSymbol Id="o1012"><a:Rect>((-2000,-36000), (76000,13500))</a:Rect><a:BaseSymbol.Flags>4</a:BaseSymbol.Flags><a:LineColor>15257808</a:LineColor><a:FillColor>16777215</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N</a:FontList><a:BrushStyle>4</a:BrushStyle><c:Object><o:SequenceDiagram Ref="o1011"/></c:Object></o:InteractionSymbol><o:UMLObjectSequenceSymbol Id="o1014"><a:Rect>((-700,8400), (5700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o1015"><a:Rect>((2450,-33800), (2550,8400))</a:Rect><a:ListOfPoints>((2500,8400),(2500,-33800))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o1013"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o1017"><a:Rect>((15300,8400), (21700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o1018"><a:Rect>((18450,-33800), (18550,8400))</a:Rect><a:ListOfPoints>((18500,8400),(18500,-33800))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o1016"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o1020"><a:Rect>((31300,8400), (37700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o1021"><a:Rect>((34450,-33800), (34550,8400))</a:Rect><a:ListOfPoints>((34500,8400),(34500,-33800))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o1019"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o1023"><a:Rect>((47300,8400), (53700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o1024"><a:Rect>((50450,-33800), (50550,8400))</a:Rect><a:ListOfPoints>((50500,8400),(50500,-33800))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o1022"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o1026"><a:Rect>((63300,8400), (69700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o1027"><a:Rect>((66450,-33800), (66550,8400))</a:Rect><a:ListOfPoints>((66500,8400),(66500,-33800))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o1025"/></c:Object></o:UMLObjectSequenceSymbol><o:MessageSymbol Id="o1029"><a:Rect>((1950,3450), (19050,4750))</a:Rect><a:ListOfPoints>((2500,4100),(18500,4100))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o1014"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o1017"/></c:DestinationSymbol><c:Object><o:Message Ref="o1028"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o1031"><a:Rect>((17950,1350), (35050,2650))</a:Rect><a:ListOfPoints>((18500,2000),(34500,2000))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o1017"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o1020"/></c:DestinationSymbol><c:Object><o:Message Ref="o1030"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o1033"><a:Rect>((17950,-750), (35050,550))</a:Rect><a:ListOfPoints>((34500,-100),(18500,-100))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o1020"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o1017"/></c:DestinationSymbol><c:Object><o:Message Ref="o1032"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o1035"><a:Rect>((17950,-2850), (19050,-1550))</a:Rect><a:ListOfPoints>((18500,-2200),(20900,-2200),(20900,-2750),(18500,-2750))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o1017"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o1017"/></c:DestinationSymbol><c:Object><o:Message Ref="o1034"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o1037"><a:Rect>((1950,-4950), (19050,-3650))</a:Rect><a:ListOfPoints>((2500,-4300),(18500,-4300))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o1014"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o1017"/></c:DestinationSymbol><c:Object><o:Message Ref="o1036"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o1039"><a:Rect>((17950,-7050), (51050,-5750))</a:Rect><a:ListOfPoints>((18500,-6400),(50500,-6400))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o1017"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o1023"/></c:DestinationSymbol><c:Object><o:Message Ref="o1038"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o1041"><a:Rect>((1950,-9150), (19050,-7850))</a:Rect><a:ListOfPoints>((2500,-8500),(18500,-8500))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o1014"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o1017"/></c:DestinationSymbol><c:Object><o:Message Ref="o1040"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o1043"><a:Rect>((17950,-11250), (51050,-9950))</a:Rect><a:ListOfPoints>((18500,-10600),(50500,-10600))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o1017"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o1023"/></c:DestinationSymbol><c:Object><o:Message Ref="o1042"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o1045"><a:Rect>((17950,-13350), (67050,-12050))</a:Rect><a:ListOfPoints>((18500,-12700),(66500,-12700))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o1017"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o1026"/></c:DestinationSymbol><c:Object><o:Message Ref="o1044"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o1047"><a:Rect>((1950,-15450), (19050,-14150))</a:Rect><a:ListOfPoints>((18500,-14800),(2500,-14800))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o1017"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o1014"/></c:DestinationSymbol><c:Object><o:Message Ref="o1046"/></c:Object></o:MessageSymbol></c:Symbols></o:SequenceDiagram><o:SequenceDiagram Id="o1048"><a:ObjectID>2AF8CF34-5EBF-4EAD-A10B-AA4A24C26A0F</a:ObjectID><a:Name>Consultar auditoría</a:Name><a:Code>AUD_CONSULTAR_REGISTROS</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><a:Comment>Escenario principal y validaciones relevantes del SIGH GR06. Basado en ERS y diagramas de actividad.</a:Comment><a:DisplayPreferences>[DisplayPreferences]
+[DisplayPreferences\SQD]
+[DisplayPreferences\General]
+Adjust to text=Yes
+Snap Grid=No
+Constrain Labels=Yes
+Display Grid=No
+Show Page Delimiter=No
+Activate automatic link routing=Yes
+[DisplayPreferences\Object]
+ObjtShowStrn=Yes
+MssgShowName=Yes
+MssgShowStrn=Yes
+MssgShowCond=Yes</a:DisplayPreferences><a:PaperSize>(11000, 17000)</a:PaperSize><a:PageMargins>((315,354), (433,354))</a:PageMargins><a:PageOrientation>2</a:PageOrientation><a:PaperSource>15</a:PaperSource><c:Symbols><o:InteractionSymbol Id="o1049"><a:Rect>((-2000,-29700), (76000,13500))</a:Rect><a:BaseSymbol.Flags>4</a:BaseSymbol.Flags><a:LineColor>15257808</a:LineColor><a:FillColor>16777215</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N</a:FontList><a:BrushStyle>4</a:BrushStyle><c:Object><o:SequenceDiagram Ref="o1048"/></c:Object></o:InteractionSymbol><o:UMLObjectSequenceSymbol Id="o1051"><a:Rect>((-700,8400), (5700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o1052"><a:Rect>((2450,-27500), (2550,8400))</a:Rect><a:ListOfPoints>((2500,8400),(2500,-27500))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o1050"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o1054"><a:Rect>((15300,8400), (21700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o1055"><a:Rect>((18450,-27500), (18550,8400))</a:Rect><a:ListOfPoints>((18500,8400),(18500,-27500))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o1053"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o1057"><a:Rect>((31300,8400), (37700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o1058"><a:Rect>((34450,-27500), (34550,8400))</a:Rect><a:ListOfPoints>((34500,8400),(34500,-27500))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o1056"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o1060"><a:Rect>((47300,8400), (53700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o1061"><a:Rect>((50450,-27500), (50550,8400))</a:Rect><a:ListOfPoints>((50500,8400),(50500,-27500))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o1059"/></c:Object></o:UMLObjectSequenceSymbol><o:UMLObjectSequenceSymbol Id="o1063"><a:Rect>((63300,8400), (69700,11000))</a:Rect><a:LineColor>11184640</a:LineColor><a:FillColor>16777136</a:FillColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList><a:BrushStyle>6</a:BrushStyle><a:GradientFillMode>65</a:GradientFillMode><a:GradientEndColor>16777215</a:GradientEndColor><c:SlaveSubSymbols><o:LifelineSymbol Id="o1064"><a:Rect>((66450,-27500), (66550,8400))</a:Rect><a:ListOfPoints>((66500,8400),(66500,-27500))</a:ListOfPoints><a:ArrowStyle>0</a:ArrowStyle><a:LineColor>16744448</a:LineColor><a:DashStyle>3</a:DashStyle><a:ShadowColor>8421504</a:ShadowColor></o:LifelineSymbol></c:SlaveSubSymbols><c:Object><o:UMLObject Ref="o1062"/></c:Object></o:UMLObjectSequenceSymbol><o:MessageSymbol Id="o1066"><a:Rect>((1950,3450), (19050,4750))</a:Rect><a:ListOfPoints>((2500,4100),(18500,4100))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o1051"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o1054"/></c:DestinationSymbol><c:Object><o:Message Ref="o1065"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o1068"><a:Rect>((17950,1350), (35050,2650))</a:Rect><a:ListOfPoints>((18500,2000),(34500,2000))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o1054"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o1057"/></c:DestinationSymbol><c:Object><o:Message Ref="o1067"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o1070"><a:Rect>((17950,-750), (35050,550))</a:Rect><a:ListOfPoints>((34500,-100),(18500,-100))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o1057"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o1054"/></c:DestinationSymbol><c:Object><o:Message Ref="o1069"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o1072"><a:Rect>((17950,-2850), (51050,-1550))</a:Rect><a:ListOfPoints>((18500,-2200),(50500,-2200))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o1054"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o1060"/></c:DestinationSymbol><c:Object><o:Message Ref="o1071"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o1074"><a:Rect>((17950,-4950), (51050,-3650))</a:Rect><a:ListOfPoints>((50500,-4300),(18500,-4300))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o1060"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o1054"/></c:DestinationSymbol><c:Object><o:Message Ref="o1073"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o1076"><a:Rect>((17950,-7050), (67050,-5750))</a:Rect><a:ListOfPoints>((18500,-6400),(66500,-6400))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o1054"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o1063"/></c:DestinationSymbol><c:Object><o:Message Ref="o1075"/></c:Object></o:MessageSymbol><o:MessageSymbol Id="o1078"><a:Rect>((1950,-9150), (67050,-7850))</a:Rect><a:ListOfPoints>((66500,-8500),(2500,-8500))</a:ListOfPoints><a:ArrowStyle>8</a:ArrowStyle><a:LineColor>12615808</a:LineColor><a:ShadowColor>12632256</a:ShadowColor><a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList><c:SourceSymbol><o:UMLObjectSequenceSymbol Ref="o1063"/></c:SourceSymbol><c:DestinationSymbol><o:UMLObjectSequenceSymbol Ref="o1051"/></c:DestinationSymbol><c:Object><o:Message Ref="o1077"/></c:Object></o:MessageSymbol></c:Symbols></o:SequenceDiagram></c:SequenceDiagrams><c:DefaultDiagram><o:SequenceDiagram Ref="o698"/></c:DefaultDiagram><c:Model.Objects><o:UMLObject Id="o700"><a:ObjectID>106461C6-9CD0-4AB3-8DCD-1670B83B163E</a:ObjectID><a:Name>Personal autorizado</a:Name><a:Code>SQ_SEG_INICIAR_SESION_1</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o703"><a:ObjectID>F5975DE7-8B8B-4C68-9543-DE205619AD72</a:ObjectID><a:Name>Interfaz de acceso</a:Name><a:Code>SQ_SEG_INICIAR_SESION_2</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o706"><a:ObjectID>291BFF99-34E4-4E79-957A-A8B296D55049</a:ObjectID><a:Name>Servicio de autenticación</a:Name><a:Code>SQ_SEG_INICIAR_SESION_3</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o709"><a:ObjectID>62EFE200-D92A-460C-8C35-1C28643982A9</a:ObjectID><a:Name>Repositorio de usuarios</a:Name><a:Code>SQ_SEG_INICIAR_SESION_4</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o712"><a:ObjectID>09D16436-0822-43EE-AF73-6319A4E9CBFD</a:ObjectID><a:Name>Registro de auditoría</a:Name><a:Code>SQ_SEG_INICIAR_SESION_5</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o733"><a:ObjectID>17A263D4-4734-47B5-B873-20CD508F25EE</a:ObjectID><a:Name>Recepcionista</a:Name><a:Code>SQ_PAC_REGISTRAR_ADMISION_1</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o736"><a:ObjectID>67B42DD2-2385-41DF-8882-9B3D8EE32A8E</a:ObjectID><a:Name>Interfaz de admisión</a:Name><a:Code>SQ_PAC_REGISTRAR_ADMISION_2</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o739"><a:ObjectID>B11E95D8-1C2C-4AC3-ABE2-B8B2BCBA2E39</a:ObjectID><a:Name>Gestor de pacientes</a:Name><a:Code>SQ_PAC_REGISTRAR_ADMISION_3</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o742"><a:ObjectID>A7B973A0-0DA1-4D80-B881-AA7ED549BFAC</a:ObjectID><a:Name>Repositorio de pacientes</a:Name><a:Code>SQ_PAC_REGISTRAR_ADMISION_4</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o745"><a:ObjectID>7A973F40-23BB-4C32-9116-56363D5C3B9A</a:ObjectID><a:Name>Auditoría</a:Name><a:Code>SQ_PAC_REGISTRAR_ADMISION_5</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o770"><a:ObjectID>C4633FCE-6BB7-4572-83CF-99E776990D79</a:ObjectID><a:Name>Recepcionista</a:Name><a:Code>SQ_CIT_PROGRAMAR_CITA_1</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o773"><a:ObjectID>0387E648-0F3B-4A96-AB58-CE87F7280A40</a:ObjectID><a:Name>Interfaz de citas</a:Name><a:Code>SQ_CIT_PROGRAMAR_CITA_2</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o776"><a:ObjectID>00891745-9AE7-4070-87C2-202BB74DAA73</a:ObjectID><a:Name>Gestor de agendas</a:Name><a:Code>SQ_CIT_PROGRAMAR_CITA_3</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o779"><a:ObjectID>C89F62E3-18D6-446D-AC2B-2BA88A6FA6E8</a:ObjectID><a:Name>Repositorio de citas</a:Name><a:Code>SQ_CIT_PROGRAMAR_CITA_4</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o782"><a:ObjectID>FB81B010-9260-4C7F-81D1-2615CABCBCAC</a:ObjectID><a:Name>Auditoría</a:Name><a:Code>SQ_CIT_PROGRAMAR_CITA_5</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o805"><a:ObjectID>DE25A511-7BCB-4636-A0C9-38D4659419FC</a:ObjectID><a:Name>Médico</a:Name><a:Code>SQ_HC_REGISTRAR_CONSULTA_1</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o808"><a:ObjectID>D0A9C75A-D897-474F-BA94-EDE2A7124586</a:ObjectID><a:Name>Interfaz clínica</a:Name><a:Code>SQ_HC_REGISTRAR_CONSULTA_2</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o811"><a:ObjectID>5E639CA9-FD1C-4B94-B178-DBBCC96D988E</a:ObjectID><a:Name>Gestor de episodios</a:Name><a:Code>SQ_HC_REGISTRAR_CONSULTA_3</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o814"><a:ObjectID>13A7CA95-347F-4184-9C15-685005DABC90</a:ObjectID><a:Name>Historia clínica</a:Name><a:Code>SQ_HC_REGISTRAR_CONSULTA_4</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o817"><a:ObjectID>7A697C40-04A2-4357-98DD-9809CB1B1A12</a:ObjectID><a:Name>Auditoría</a:Name><a:Code>SQ_HC_REGISTRAR_CONSULTA_5</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o842"><a:ObjectID>3FA94B2E-B33B-4978-8818-4585FA7B9E61</a:ObjectID><a:Name>Médico</a:Name><a:Code>SQ_LAB_SOLICITUD_RESULTADO_1</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o845"><a:ObjectID>2C889B56-FA66-4EC3-ADE2-FC87D97A6152</a:ObjectID><a:Name>Gestor de laboratorio</a:Name><a:Code>SQ_LAB_SOLICITUD_RESULTADO_2</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o848"><a:ObjectID>C5EF9D38-3C4A-4088-A83D-9DF53924617F</a:ObjectID><a:Name>Bandeja de solicitudes</a:Name><a:Code>SQ_LAB_SOLICITUD_RESULTADO_3</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o851"><a:ObjectID>80FB13BE-71D4-4E04-AE80-FDA9EF0E8D84</a:ObjectID><a:Name>Laboratorista</a:Name><a:Code>SQ_LAB_SOLICITUD_RESULTADO_4</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o854"><a:ObjectID>2729E8FA-DB79-4A77-9D3A-D20E501620E3</a:ObjectID><a:Name>Historia clínica</a:Name><a:Code>SQ_LAB_SOLICITUD_RESULTADO_5</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o877"><a:ObjectID>F618D3A8-EFFF-4096-8596-B471C94A277D</a:ObjectID><a:Name>Médico</a:Name><a:Code>SQ_IMG_GESTIONAR_ESTUDIOS_1</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o880"><a:ObjectID>6A319724-4C18-4DE6-A49C-93F9BE819B2F</a:ObjectID><a:Name>Gestor de imagenología</a:Name><a:Code>SQ_IMG_GESTIONAR_ESTUDIOS_2</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o883"><a:ObjectID>C44C78C6-EAC3-4839-ACA9-26221BD5FBE8</a:ObjectID><a:Name>Agenda de imagen</a:Name><a:Code>SQ_IMG_GESTIONAR_ESTUDIOS_3</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o886"><a:ObjectID>82B14DE9-E741-4284-A873-68B1A97D0713</a:ObjectID><a:Name>Radiólogo</a:Name><a:Code>SQ_IMG_GESTIONAR_ESTUDIOS_4</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o889"><a:ObjectID>049A8618-15BF-4AC9-8003-45AB3475616B</a:ObjectID><a:Name>Historia clínica</a:Name><a:Code>SQ_IMG_GESTIONAR_ESTUDIOS_5</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o908"><a:ObjectID>2B730E17-4F96-4578-9B41-BE3BF61CA58F</a:ObjectID><a:Name>Médico</a:Name><a:Code>SQ_FAR_DISPENSACION_1</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o911"><a:ObjectID>DDF97715-065D-421D-A4C0-FE569D7D1499</a:ObjectID><a:Name>Gestor de prescripciones</a:Name><a:Code>SQ_FAR_DISPENSACION_2</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o914"><a:ObjectID>842C27BC-B760-4653-877A-5468F31F89DA</a:ObjectID><a:Name>Farmacéutico</a:Name><a:Code>SQ_FAR_DISPENSACION_3</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o917"><a:ObjectID>8D1A96FA-C0A3-42EE-B684-5DBFC4DC196F</a:ObjectID><a:Name>Gestor de inventario</a:Name><a:Code>SQ_FAR_DISPENSACION_4</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o920"><a:ObjectID>00366863-9BB5-4E12-9CF2-58D9EB9BAF66</a:ObjectID><a:Name>Historia clínica</a:Name><a:Code>SQ_FAR_DISPENSACION_5</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o945"><a:ObjectID>59031EEF-23B1-4D6E-9F76-1EC8B8F802B0</a:ObjectID><a:Name>Admisión hospitalaria</a:Name><a:Code>SQ_HOS_ASIGNAR_CAMA_1</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o948"><a:ObjectID>8D688CFA-03DE-4E02-9E70-355002346F49</a:ObjectID><a:Name>Gestor de hospitalización</a:Name><a:Code>SQ_HOS_ASIGNAR_CAMA_2</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o951"><a:ObjectID>D1F26B15-504C-4AD8-8200-5BEFE1D3A19B</a:ObjectID><a:Name>Control de camas</a:Name><a:Code>SQ_HOS_ASIGNAR_CAMA_3</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o954"><a:ObjectID>55FC68A4-BB73-4839-8B6B-EA0B4F4CEC3C</a:ObjectID><a:Name>Historia clínica</a:Name><a:Code>SQ_HOS_ASIGNAR_CAMA_4</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o957"><a:ObjectID>435BF7FE-90E2-48A6-8852-736C1DA9254E</a:ObjectID><a:Name>Auditoría</a:Name><a:Code>SQ_HOS_ASIGNAR_CAMA_5</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o980"><a:ObjectID>7F746468-1BB7-4DAF-8189-77D602A9ED1D</a:ObjectID><a:Name>Cirujano</a:Name><a:Code>SQ_QUI_PROGRAMAR_CIRUGIA_1</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o983"><a:ObjectID>900A9C2D-A2AE-402E-B742-69DA0AC78941</a:ObjectID><a:Name>Gestor quirúrgico</a:Name><a:Code>SQ_QUI_PROGRAMAR_CIRUGIA_2</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o986"><a:ObjectID>0AA6A86E-AD07-4AB4-94B8-6426FBADA40E</a:ObjectID><a:Name>Agenda de quirófanos</a:Name><a:Code>SQ_QUI_PROGRAMAR_CIRUGIA_3</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o989"><a:ObjectID>46859FC4-E9C0-4FBC-8BA6-D9763A98D9D8</a:ObjectID><a:Name>Equipo quirúrgico</a:Name><a:Code>SQ_QUI_PROGRAMAR_CIRUGIA_4</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o992"><a:ObjectID>EF3E885F-17D0-4B29-8A69-E60393953DD4</a:ObjectID><a:Name>Historia clínica</a:Name><a:Code>SQ_QUI_PROGRAMAR_CIRUGIA_5</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o1013"><a:ObjectID>D65338FB-0394-40FF-A7DE-80DE5E8755A7</a:ObjectID><a:Name>Cajero</a:Name><a:Code>SQ_FAC_GENERAR_FACTURA_1</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o1016"><a:ObjectID>8334F6FA-CC5C-4578-A79B-511404513093</a:ObjectID><a:Name>Gestor de facturación</a:Name><a:Code>SQ_FAC_GENERAR_FACTURA_2</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o1019"><a:ObjectID>83A4FAD2-7528-4528-84C1-C5E307B39933</a:ObjectID><a:Name>Gestor de cargos</a:Name><a:Code>SQ_FAC_GENERAR_FACTURA_3</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o1022"><a:ObjectID>69CF00D5-E9C3-4277-BD76-930944113509</a:ObjectID><a:Name>Repositorio de facturas</a:Name><a:Code>SQ_FAC_GENERAR_FACTURA_4</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o1025"><a:ObjectID>C44F776A-7A1E-48FD-87EB-CE7A23CCD627</a:ObjectID><a:Name>Auditoría</a:Name><a:Code>SQ_FAC_GENERAR_FACTURA_5</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o1050"><a:ObjectID>AF79B2D4-B4B9-4C68-80E2-727025CF6C2A</a:ObjectID><a:Name>Auditor autorizado</a:Name><a:Code>SQ_AUD_CONSULTAR_REGISTROS_1</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o1053"><a:ObjectID>0643CE01-58DD-448D-8EFF-D2C1854B5283</a:ObjectID><a:Name>Interfaz de auditoría</a:Name><a:Code>SQ_AUD_CONSULTAR_REGISTROS_2</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o1056"><a:ObjectID>52E68BB9-667A-41CB-8BC4-748AEF830DA2</a:ObjectID><a:Name>Servicio de permisos</a:Name><a:Code>SQ_AUD_CONSULTAR_REGISTROS_3</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o1059"><a:ObjectID>A8EB7192-FE46-4789-8009-0507C391E43C</a:ObjectID><a:Name>Repositorio de auditoría</a:Name><a:Code>SQ_AUD_CONSULTAR_REGISTROS_4</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject><o:UMLObject Id="o1062"><a:ObjectID>0F1B00AC-6F81-4139-BE73-CE168C8D51B4</a:ObjectID><a:Name>Generador de reportes</a:Name><a:Code>SQ_AUD_CONSULTAR_REGISTROS_5</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier></o:UMLObject></c:Model.Objects><c:Messages><o:Message Id="o715"><a:ObjectID>867485E3-5B6B-4B59-8580-FF959C408C71</a:ObjectID><a:Name>ingresarCredenciales()</a:Name><a:Code>SEG_INICIAR_SESION_01</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o700"/></c:Object1><c:Object2><o:UMLObject Ref="o703"/></c:Object2></o:Message><o:Message Id="o717"><a:ObjectID>60097EBA-C5F8-40C5-98A7-C70E97E6F418</a:ObjectID><a:Name>solicitarAutenticacion()</a:Name><a:Code>SEG_INICIAR_SESION_02</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o703"/></c:Object1><c:Object2><o:UMLObject Ref="o706"/></c:Object2></o:Message><o:Message Id="o719"><a:ObjectID>37F712D2-EC1D-4F2E-87A4-AC84E6664F37</a:ObjectID><a:Name>buscarUsuarioActivo()</a:Name><a:Code>SEG_INICIAR_SESION_03</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o706"/></c:Object1><c:Object2><o:UMLObject Ref="o709"/></c:Object2></o:Message><o:Message Id="o721"><a:ObjectID>57E4C307-064E-4A4D-B39C-3DD6A24B1F60</a:ObjectID><a:Name>informarUsuarioRoles()</a:Name><a:Code>SEG_INICIAR_SESION_04</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o709"/></c:Object1><c:Object2><o:UMLObject Ref="o706"/></c:Object2></o:Message><o:Message Id="o723"><a:ObjectID>F6B13260-C05F-4B36-8496-4B79FF64DFAD</a:ObjectID><a:Name>validarCredencialesPermisos()</a:Name><a:Code>SEG_INICIAR_SESION_05</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o706"/></c:Object1><c:Object2><o:UMLObject Ref="o706"/></c:Object2></o:Message><o:Message Id="o725"><a:ObjectID>AD42A7B8-ADCE-4E64-8586-759C86029FCD</a:ObjectID><a:Name>registrarAcceso()</a:Name><a:Code>SEG_INICIAR_SESION_06</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o706"/></c:Object1><c:Object2><o:UMLObject Ref="o712"/></c:Object2></o:Message><o:Message Id="o727"><a:ObjectID>6FBF0885-AAA1-4A0B-A1D4-A1020FB796AB</a:ObjectID><a:Name>devolverResultado()</a:Name><a:Code>SEG_INICIAR_SESION_07</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o706"/></c:Object1><c:Object2><o:UMLObject Ref="o703"/></c:Object2></o:Message><o:Message Id="o729"><a:ObjectID>2F132989-7E11-4149-A8DB-E937E1C7D4B9</a:ObjectID><a:Name>mostrarAccesoOError()</a:Name><a:Code>SEG_INICIAR_SESION_08</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o703"/></c:Object1><c:Object2><o:UMLObject Ref="o700"/></c:Object2></o:Message><o:Message Id="o748"><a:ObjectID>CC0E6D00-BDEF-4B82-96B6-221B75885827</a:ObjectID><a:Name>introducirIdentificacion()</a:Name><a:Code>PAC_REGISTRAR_ADMISION_01</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o733"/></c:Object1><c:Object2><o:UMLObject Ref="o736"/></c:Object2></o:Message><o:Message Id="o750"><a:ObjectID>DC12F44B-7929-46C3-B6A7-81FDDFEB6234</a:ObjectID><a:Name>buscarCoincidencias()</a:Name><a:Code>PAC_REGISTRAR_ADMISION_02</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o736"/></c:Object1><c:Object2><o:UMLObject Ref="o739"/></c:Object2></o:Message><o:Message Id="o752"><a:ObjectID>72F2052F-53C3-4222-A67F-C0AEBB3ABFC7</a:ObjectID><a:Name>consultarPaciente()</a:Name><a:Code>PAC_REGISTRAR_ADMISION_03</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o739"/></c:Object1><c:Object2><o:UMLObject Ref="o742"/></c:Object2></o:Message><o:Message Id="o754"><a:ObjectID>22120261-E350-4332-842B-71590D93D818</a:ObjectID><a:Name>devolverCoincidencias()</a:Name><a:Code>PAC_REGISTRAR_ADMISION_04</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o742"/></c:Object1><c:Object2><o:UMLObject Ref="o739"/></c:Object2></o:Message><o:Message Id="o756"><a:ObjectID>AAC9AC69-9EF0-402E-B52C-06AAE4C8DFE1</a:ObjectID><a:Name>advertirPosibleDuplicado()</a:Name><a:Code>PAC_REGISTRAR_ADMISION_05</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o739"/></c:Object1><c:Object2><o:UMLObject Ref="o736"/></c:Object2></o:Message><o:Message Id="o758"><a:ObjectID>86210A90-5399-4A7E-BA7A-9DA423EBB681</a:ObjectID><a:Name>confirmarRegistroAutorizado()</a:Name><a:Code>PAC_REGISTRAR_ADMISION_06</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o733"/></c:Object1><c:Object2><o:UMLObject Ref="o736"/></c:Object2></o:Message><o:Message Id="o760"><a:ObjectID>5FF4C5E5-17EA-4F92-B138-50E86EC582E5</a:ObjectID><a:Name>registrarPaciente()</a:Name><a:Code>PAC_REGISTRAR_ADMISION_07</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o736"/></c:Object1><c:Object2><o:UMLObject Ref="o739"/></c:Object2></o:Message><o:Message Id="o762"><a:ObjectID>8E0F63D9-259A-4311-8DEC-4D948B45B627</a:ObjectID><a:Name>guardarPaciente()</a:Name><a:Code>PAC_REGISTRAR_ADMISION_08</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o739"/></c:Object1><c:Object2><o:UMLObject Ref="o742"/></c:Object2></o:Message><o:Message Id="o764"><a:ObjectID>A9E1924E-B655-475D-AF64-17696D1FDA2C</a:ObjectID><a:Name>registrarOperacion()</a:Name><a:Code>PAC_REGISTRAR_ADMISION_09</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o739"/></c:Object1><c:Object2><o:UMLObject Ref="o745"/></c:Object2></o:Message><o:Message Id="o766"><a:ObjectID>8D855431-03A9-4857-85B0-B7DD4A5BF085</a:ObjectID><a:Name>mostrarIdentificadorHospitalario()</a:Name><a:Code>PAC_REGISTRAR_ADMISION_10</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o739"/></c:Object1><c:Object2><o:UMLObject Ref="o736"/></c:Object2></o:Message><o:Message Id="o785"><a:ObjectID>85F110A7-A8BE-4C4E-BBC3-BFB2AAA1DFC6</a:ObjectID><a:Name>solicitarTurno()</a:Name><a:Code>CIT_PROGRAMAR_CITA_01</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o770"/></c:Object1><c:Object2><o:UMLObject Ref="o773"/></c:Object2></o:Message><o:Message Id="o787"><a:ObjectID>EC9F26A9-87C3-4E2F-9475-F0967E8070F7</a:ObjectID><a:Name>consultarAgendaDisponible()</a:Name><a:Code>CIT_PROGRAMAR_CITA_02</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o773"/></c:Object1><c:Object2><o:UMLObject Ref="o776"/></c:Object2></o:Message><o:Message Id="o789"><a:ObjectID>62CA179F-9A5A-4555-B41E-167BCE3A0035</a:ObjectID><a:Name>validarDisponibilidad()</a:Name><a:Code>CIT_PROGRAMAR_CITA_03</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o776"/></c:Object1><c:Object2><o:UMLObject Ref="o779"/></c:Object2></o:Message><o:Message Id="o791"><a:ObjectID>475EB7E3-68CE-489D-94B1-D511DC864714</a:ObjectID><a:Name>indicarTurnosLibres()</a:Name><a:Code>CIT_PROGRAMAR_CITA_04</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o779"/></c:Object1><c:Object2><o:UMLObject Ref="o776"/></c:Object2></o:Message><o:Message Id="o793"><a:ObjectID>66835AC0-A5DD-4986-819B-6FE1EB87CE60</a:ObjectID><a:Name>confirmarReserva()</a:Name><a:Code>CIT_PROGRAMAR_CITA_05</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o773"/></c:Object1><c:Object2><o:UMLObject Ref="o776"/></c:Object2></o:Message><o:Message Id="o795"><a:ObjectID>F63B8204-C314-4C1E-8687-0E5A9178924F</a:ObjectID><a:Name>reservarTurnoAtomicamente()</a:Name><a:Code>CIT_PROGRAMAR_CITA_06</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o776"/></c:Object1><c:Object2><o:UMLObject Ref="o779"/></c:Object2></o:Message><o:Message Id="o797"><a:ObjectID>4F799728-D83F-4049-9BC4-18304784085A</a:ObjectID><a:Name>confirmarORechazar()</a:Name><a:Code>CIT_PROGRAMAR_CITA_07</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o779"/></c:Object1><c:Object2><o:UMLObject Ref="o776"/></c:Object2></o:Message><o:Message Id="o799"><a:ObjectID>CF541975-7B47-42B5-AF9A-147943196C4A</a:ObjectID><a:Name>registrarCambioDeCita()</a:Name><a:Code>CIT_PROGRAMAR_CITA_08</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o776"/></c:Object1><c:Object2><o:UMLObject Ref="o782"/></c:Object2></o:Message><o:Message Id="o801"><a:ObjectID>A1FD9AF0-3ED4-4E33-81B4-B1E06F236E84</a:ObjectID><a:Name>mostrarConfirmacion()</a:Name><a:Code>CIT_PROGRAMAR_CITA_09</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o776"/></c:Object1><c:Object2><o:UMLObject Ref="o773"/></c:Object2></o:Message><o:Message Id="o820"><a:ObjectID>50D14FF8-EF19-4EEF-8B2D-4D6A3A30F988</a:ObjectID><a:Name>seleccionarPaciente()</a:Name><a:Code>HC_REGISTRAR_CONSULTA_01</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o805"/></c:Object1><c:Object2><o:UMLObject Ref="o808"/></c:Object2></o:Message><o:Message Id="o822"><a:ObjectID>61435A74-F43C-4AA5-8E8A-93513991FCDC</a:ObjectID><a:Name>abrirEpisodio()</a:Name><a:Code>HC_REGISTRAR_CONSULTA_02</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o808"/></c:Object1><c:Object2><o:UMLObject Ref="o811"/></c:Object2></o:Message><o:Message Id="o824"><a:ObjectID>63A71EF3-D3D4-4B85-9E56-BFB7A38FD8E1</a:ObjectID><a:Name>consultarAntecedentesAlergias()</a:Name><a:Code>HC_REGISTRAR_CONSULTA_03</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o811"/></c:Object1><c:Object2><o:UMLObject Ref="o814"/></c:Object2></o:Message><o:Message Id="o826"><a:ObjectID>2E405AC9-64AD-42F3-92A0-09961D0D16FE</a:ObjectID><a:Name>devolverHistorialAutorizado()</a:Name><a:Code>HC_REGISTRAR_CONSULTA_04</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o814"/></c:Object1><c:Object2><o:UMLObject Ref="o811"/></c:Object2></o:Message><o:Message Id="o828"><a:ObjectID>0420B033-C086-4E6B-9671-26CF6D5E3E83</a:ObjectID><a:Name>registrarSignosDiagnosticos()</a:Name><a:Code>HC_REGISTRAR_CONSULTA_05</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o805"/></c:Object1><c:Object2><o:UMLObject Ref="o808"/></c:Object2></o:Message><o:Message Id="o830"><a:ObjectID>573D2A69-4356-4753-B83F-164D6B4844A5</a:ObjectID><a:Name>guardarNotaClinica()</a:Name><a:Code>HC_REGISTRAR_CONSULTA_06</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o808"/></c:Object1><c:Object2><o:UMLObject Ref="o811"/></c:Object2></o:Message><o:Message Id="o832"><a:ObjectID>A4E161E7-F791-467F-BDC9-D8A94290095D</a:ObjectID><a:Name>incorporarAlExpediente()</a:Name><a:Code>HC_REGISTRAR_CONSULTA_07</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o811"/></c:Object1><c:Object2><o:UMLObject Ref="o814"/></c:Object2></o:Message><o:Message Id="o834"><a:ObjectID>E0FE013C-3D59-400D-A7F2-EB812136F857</a:ObjectID><a:Name>finalizarYFirmar()</a:Name><a:Code>HC_REGISTRAR_CONSULTA_08</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o805"/></c:Object1><c:Object2><o:UMLObject Ref="o808"/></c:Object2></o:Message><o:Message Id="o836"><a:ObjectID>8488BA97-459A-4F2D-A4C9-C63332E30AC4</a:ObjectID><a:Name>registrarTrazabilidad()</a:Name><a:Code>HC_REGISTRAR_CONSULTA_09</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o811"/></c:Object1><c:Object2><o:UMLObject Ref="o817"/></c:Object2></o:Message><o:Message Id="o838"><a:ObjectID>5FCD5E06-93F6-4BAE-A670-AFAD3ADF8DAF</a:ObjectID><a:Name>mostrarAtencionFinalizada()</a:Name><a:Code>HC_REGISTRAR_CONSULTA_10</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o811"/></c:Object1><c:Object2><o:UMLObject Ref="o808"/></c:Object2></o:Message><o:Message Id="o857"><a:ObjectID>266DFCF6-0F7F-4F03-B8B7-BEC95E7001CE</a:ObjectID><a:Name>solicitarExamenes()</a:Name><a:Code>LAB_SOLICITUD_RESULTADO_01</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o842"/></c:Object1><c:Object2><o:UMLObject Ref="o845"/></c:Object2></o:Message><o:Message Id="o859"><a:ObjectID>9AD5E707-648A-4D27-A76E-FC1C22D78DF3</a:ObjectID><a:Name>crearSolicitudDetalle()</a:Name><a:Code>LAB_SOLICITUD_RESULTADO_02</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o845"/></c:Object1><c:Object2><o:UMLObject Ref="o848"/></c:Object2></o:Message><o:Message Id="o861"><a:ObjectID>EBAFC224-EA08-4DC3-A910-636FA929B4D9</a:ObjectID><a:Name>notificarSolicitud()</a:Name><a:Code>LAB_SOLICITUD_RESULTADO_03</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o848"/></c:Object1><c:Object2><o:UMLObject Ref="o851"/></c:Object2></o:Message><o:Message Id="o863"><a:ObjectID>5BDE3FB3-BB75-48FB-8441-960351A68A76</a:ObjectID><a:Name>registrarMuestra()</a:Name><a:Code>LAB_SOLICITUD_RESULTADO_04</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o851"/></c:Object1><c:Object2><o:UMLObject Ref="o845"/></c:Object2></o:Message><o:Message Id="o865"><a:ObjectID>9ECBBE5A-17F1-4EBE-B180-682E73488DD2</a:ObjectID><a:Name>registrarResultados()</a:Name><a:Code>LAB_SOLICITUD_RESULTADO_05</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o851"/></c:Object1><c:Object2><o:UMLObject Ref="o845"/></c:Object2></o:Message><o:Message Id="o867"><a:ObjectID>5EEDC00E-0201-4CF5-9870-00783B0E3E27</a:ObjectID><a:Name>marcarResultadoPreliminar()</a:Name><a:Code>LAB_SOLICITUD_RESULTADO_06</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o845"/></c:Object1><c:Object2><o:UMLObject Ref="o845"/></c:Object2></o:Message><o:Message Id="o869"><a:ObjectID>3EB6E864-A0EC-439A-9BD3-9E79F4C229D7</a:ObjectID><a:Name>validarResultados()</a:Name><a:Code>LAB_SOLICITUD_RESULTADO_07</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o851"/></c:Object1><c:Object2><o:UMLObject Ref="o845"/></c:Object2></o:Message><o:Message Id="o871"><a:ObjectID>A67557A4-2F32-4C53-A2CB-618F0A5E4097</a:ObjectID><a:Name>publicarResultadoValidado()</a:Name><a:Code>LAB_SOLICITUD_RESULTADO_08</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o845"/></c:Object1><c:Object2><o:UMLObject Ref="o854"/></c:Object2></o:Message><o:Message Id="o873"><a:ObjectID>10DC2FF9-9C75-4ECE-89A5-775F433863AC</a:ObjectID><a:Name>notificarDisponibilidad()</a:Name><a:Code>LAB_SOLICITUD_RESULTADO_09</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o845"/></c:Object1><c:Object2><o:UMLObject Ref="o842"/></c:Object2></o:Message><o:Message Id="o892"><a:ObjectID>9D1D9DEC-15DD-4BFA-B4BA-7EC471F64CC5</a:ObjectID><a:Name>solicitarEstudio()</a:Name><a:Code>IMG_GESTIONAR_ESTUDIOS_01</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o877"/></c:Object1><c:Object2><o:UMLObject Ref="o880"/></c:Object2></o:Message><o:Message Id="o894"><a:ObjectID>D7C998F4-D96C-4CFB-92A7-FF0B8C0FBEF4</a:ObjectID><a:Name>registrarYProgramar()</a:Name><a:Code>IMG_GESTIONAR_ESTUDIOS_02</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o880"/></c:Object1><c:Object2><o:UMLObject Ref="o883"/></c:Object2></o:Message><o:Message Id="o896"><a:ObjectID>949D707A-80D2-47BD-BB05-6537FBB44273</a:ObjectID><a:Name>mostrarEstudioPendiente()</a:Name><a:Code>IMG_GESTIONAR_ESTUDIOS_03</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o883"/></c:Object1><c:Object2><o:UMLObject Ref="o886"/></c:Object2></o:Message><o:Message Id="o898"><a:ObjectID>0FBB01DA-751C-478F-AFFB-597083F7A9C7</a:ObjectID><a:Name>registrarEjecucion()</a:Name><a:Code>IMG_GESTIONAR_ESTUDIOS_04</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o886"/></c:Object1><c:Object2><o:UMLObject Ref="o880"/></c:Object2></o:Message><o:Message Id="o900"><a:ObjectID>E5B590C9-8309-4A49-9A53-73C4846BA168</a:ObjectID><a:Name>emitirInformeRadiologico()</a:Name><a:Code>IMG_GESTIONAR_ESTUDIOS_05</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o886"/></c:Object1><c:Object2><o:UMLObject Ref="o880"/></c:Object2></o:Message><o:Message Id="o902"><a:ObjectID>8E9F643F-7BEC-4714-B403-E786CCFD9CCB</a:ObjectID><a:Name>vincularInformeAlEpisodio()</a:Name><a:Code>IMG_GESTIONAR_ESTUDIOS_06</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o880"/></c:Object1><c:Object2><o:UMLObject Ref="o889"/></c:Object2></o:Message><o:Message Id="o904"><a:ObjectID>4A69D5E5-A626-4F1E-8AC9-6501DF27D6D7</a:ObjectID><a:Name>notificarInformeDisponible()</a:Name><a:Code>IMG_GESTIONAR_ESTUDIOS_07</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o880"/></c:Object1><c:Object2><o:UMLObject Ref="o877"/></c:Object2></o:Message><o:Message Id="o923"><a:ObjectID>88E67707-160F-4B5B-8D63-4637D5FC7296</a:ObjectID><a:Name>emitirPrescripcion()</a:Name><a:Code>FAR_DISPENSACION_01</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o908"/></c:Object1><c:Object2><o:UMLObject Ref="o911"/></c:Object2></o:Message><o:Message Id="o925"><a:ObjectID>8ABE13CF-5692-4661-A9DC-A3E4BAC28BA4</a:ObjectID><a:Name>registrarTratamiento()</a:Name><a:Code>FAR_DISPENSACION_02</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o911"/></c:Object1><c:Object2><o:UMLObject Ref="o920"/></c:Object2></o:Message><o:Message Id="o927"><a:ObjectID>65FB1D56-1D54-4A25-8748-64D6E39AC9E5</a:ObjectID><a:Name>consultarPrescripcionVigente()</a:Name><a:Code>FAR_DISPENSACION_03</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o914"/></c:Object1><c:Object2><o:UMLObject Ref="o911"/></c:Object2></o:Message><o:Message Id="o929"><a:ObjectID>90A37C77-EC54-41C8-8A39-0165A92FF7FD</a:ObjectID><a:Name>devolverMedicamentosPendientes()</a:Name><a:Code>FAR_DISPENSACION_04</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o911"/></c:Object1><c:Object2><o:UMLObject Ref="o914"/></c:Object2></o:Message><o:Message Id="o931"><a:ObjectID>7B5118C8-B92F-431E-B792-3A3B076700C6</a:ObjectID><a:Name>verificarLotesVigentes()</a:Name><a:Code>FAR_DISPENSACION_05</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o914"/></c:Object1><c:Object2><o:UMLObject Ref="o917"/></c:Object2></o:Message><o:Message Id="o933"><a:ObjectID>2B5C8D12-FEF9-4D3F-81E7-D5B275B43F31</a:ObjectID><a:Name>informarStockDisponible()</a:Name><a:Code>FAR_DISPENSACION_06</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o917"/></c:Object1><c:Object2><o:UMLObject Ref="o914"/></c:Object2></o:Message><o:Message Id="o935"><a:ObjectID>74065CDB-F57D-479F-8E24-2887BA7570D4</a:ObjectID><a:Name>registrarDispensacionParcialOTotal()</a:Name><a:Code>FAR_DISPENSACION_07</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o914"/></c:Object1><c:Object2><o:UMLObject Ref="o917"/></c:Object2></o:Message><o:Message Id="o937"><a:ObjectID>A78B7EA3-9DC7-4020-8AB4-EBF1818ED6B6</a:ObjectID><a:Name>descontarExistencias()</a:Name><a:Code>FAR_DISPENSACION_08</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o917"/></c:Object1><c:Object2><o:UMLObject Ref="o917"/></c:Object2></o:Message><o:Message Id="o939"><a:ObjectID>1CED9C57-D51A-45E1-A9D7-A4C38671F257</a:ObjectID><a:Name>asentarMovimientoConTrazabilidad()</a:Name><a:Code>FAR_DISPENSACION_09</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o917"/></c:Object1><c:Object2><o:UMLObject Ref="o920"/></c:Object2></o:Message><o:Message Id="o941"><a:ObjectID>5C10BFBE-A64E-486D-92C4-E9844018620B</a:ObjectID><a:Name>confirmarEntrega()</a:Name><a:Code>FAR_DISPENSACION_10</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o914"/></c:Object1><c:Object2><o:UMLObject Ref="o911"/></c:Object2></o:Message><o:Message Id="o960"><a:ObjectID>FCA233B8-E852-42B6-9D8B-A60FB8DDE672</a:ObjectID><a:Name>registrarIngresoAutorizado()</a:Name><a:Code>HOS_ASIGNAR_CAMA_01</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o945"/></c:Object1><c:Object2><o:UMLObject Ref="o948"/></c:Object2></o:Message><o:Message Id="o962"><a:ObjectID>DDDB9744-B69D-4890-9225-4716321668A9</a:ObjectID><a:Name>vincularEpisodio()</a:Name><a:Code>HOS_ASIGNAR_CAMA_02</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o948"/></c:Object1><c:Object2><o:UMLObject Ref="o954"/></c:Object2></o:Message><o:Message Id="o964"><a:ObjectID>04152DB9-C63D-46F2-BF81-B0B3C4830DF2</a:ObjectID><a:Name>consultarCamasHabilitadas()</a:Name><a:Code>HOS_ASIGNAR_CAMA_03</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o948"/></c:Object1><c:Object2><o:UMLObject Ref="o951"/></c:Object2></o:Message><o:Message Id="o966"><a:ObjectID>BFE70ED0-F76E-4523-8A13-ECE657DE27BB</a:ObjectID><a:Name>ofrecerCamasDisponibles()</a:Name><a:Code>HOS_ASIGNAR_CAMA_04</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o951"/></c:Object1><c:Object2><o:UMLObject Ref="o948"/></c:Object2></o:Message><o:Message Id="o968"><a:ObjectID>4888AB9F-B0FD-45E2-BF9D-39CF574D5F42</a:ObjectID><a:Name>seleccionarCama()</a:Name><a:Code>HOS_ASIGNAR_CAMA_05</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o945"/></c:Object1><c:Object2><o:UMLObject Ref="o948"/></c:Object2></o:Message><o:Message Id="o970"><a:ObjectID>095C9F83-5310-46EC-BC67-DB52CCB7DA1E</a:ObjectID><a:Name>asignarSinSolapamientos()</a:Name><a:Code>HOS_ASIGNAR_CAMA_06</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o948"/></c:Object1><c:Object2><o:UMLObject Ref="o951"/></c:Object2></o:Message><o:Message Id="o972"><a:ObjectID>4E83A383-202C-48FB-BCB8-247B8C77C370</a:ObjectID><a:Name>confirmarOcupacion()</a:Name><a:Code>HOS_ASIGNAR_CAMA_07</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o951"/></c:Object1><c:Object2><o:UMLObject Ref="o948"/></c:Object2></o:Message><o:Message Id="o974"><a:ObjectID>2795FD02-8B95-4308-9559-D50EB5F1D018</a:ObjectID><a:Name>registrarAsignacionOTraslado()</a:Name><a:Code>HOS_ASIGNAR_CAMA_08</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o948"/></c:Object1><c:Object2><o:UMLObject Ref="o957"/></c:Object2></o:Message><o:Message Id="o976"><a:ObjectID>B67CFD9C-22D1-4C29-ABD5-8626E504AC21</a:ObjectID><a:Name>mostrarConfirmacion()</a:Name><a:Code>HOS_ASIGNAR_CAMA_09</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o948"/></c:Object1><c:Object2><o:UMLObject Ref="o945"/></c:Object2></o:Message><o:Message Id="o995"><a:ObjectID>99F87A9A-ABAF-49B2-9F86-922F8094B809</a:ObjectID><a:Name>solicitarIntervencion()</a:Name><a:Code>QUI_PROGRAMAR_CIRUGIA_01</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o980"/></c:Object1><c:Object2><o:UMLObject Ref="o983"/></c:Object2></o:Message><o:Message Id="o997"><a:ObjectID>4C126166-F50F-4A53-A4C4-C978127D18DB</a:ObjectID><a:Name>consultarSalaYHorario()</a:Name><a:Code>QUI_PROGRAMAR_CIRUGIA_02</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o983"/></c:Object1><c:Object2><o:UMLObject Ref="o986"/></c:Object2></o:Message><o:Message Id="o999"><a:ObjectID>BEF01979-8FC3-4B50-ABDA-111E5A612816</a:ObjectID><a:Name>informarDisponibilidad()</a:Name><a:Code>QUI_PROGRAMAR_CIRUGIA_03</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o986"/></c:Object1><c:Object2><o:UMLObject Ref="o983"/></c:Object2></o:Message><o:Message Id="o1001"><a:ObjectID>80A33A66-CE79-4034-9509-AF7230E17A95</a:ObjectID><a:Name>validarParticipantes()</a:Name><a:Code>QUI_PROGRAMAR_CIRUGIA_04</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o983"/></c:Object1><c:Object2><o:UMLObject Ref="o989"/></c:Object2></o:Message><o:Message Id="o1003"><a:ObjectID>2688D159-F7FB-4D0B-899E-BE219761F21E</a:ObjectID><a:Name>reservarSalaSinConflictos()</a:Name><a:Code>QUI_PROGRAMAR_CIRUGIA_05</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o983"/></c:Object1><c:Object2><o:UMLObject Ref="o986"/></c:Object2></o:Message><o:Message Id="o1005"><a:ObjectID>9DA5F55E-8DBA-4F22-9537-09B873F9FE5C</a:ObjectID><a:Name>registrarProgramacion()</a:Name><a:Code>QUI_PROGRAMAR_CIRUGIA_06</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o983"/></c:Object1><c:Object2><o:UMLObject Ref="o992"/></c:Object2></o:Message><o:Message Id="o1007"><a:ObjectID>034F83FC-2932-499E-B1C5-F79A3A091383</a:ObjectID><a:Name>registrarVerificacionPreoperatoria()</a:Name><a:Code>QUI_PROGRAMAR_CIRUGIA_07</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o989"/></c:Object1><c:Object2><o:UMLObject Ref="o983"/></c:Object2></o:Message><o:Message Id="o1009"><a:ObjectID>6501D235-84DC-4A4E-B35A-BEE5A16159A5</a:ObjectID><a:Name>notificarProgramacion()</a:Name><a:Code>QUI_PROGRAMAR_CIRUGIA_08</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o983"/></c:Object1><c:Object2><o:UMLObject Ref="o980"/></c:Object2></o:Message><o:Message Id="o1028"><a:ObjectID>CDBCA0FA-BDE4-4D2B-B498-E58A7D4D7B3C</a:ObjectID><a:Name>solicitarEstadoCuenta()</a:Name><a:Code>FAC_GENERAR_FACTURA_01</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o1013"/></c:Object1><c:Object2><o:UMLObject Ref="o1016"/></c:Object2></o:Message><o:Message Id="o1030"><a:ObjectID>BDE73E35-B888-4DBA-89A0-D7A737293D1B</a:ObjectID><a:Name>obtenerCargosDelEpisodio()</a:Name><a:Code>FAC_GENERAR_FACTURA_02</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o1016"/></c:Object1><c:Object2><o:UMLObject Ref="o1019"/></c:Object2></o:Message><o:Message Id="o1032"><a:ObjectID>8C2206B0-490B-48F0-B9E5-3C5D754801D1</a:ObjectID><a:Name>devolverConceptosTarifas()</a:Name><a:Code>FAC_GENERAR_FACTURA_03</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o1019"/></c:Object1><c:Object2><o:UMLObject Ref="o1016"/></c:Object2></o:Message><o:Message Id="o1034"><a:ObjectID>85A8D260-D9DC-44B5-8437-F0F82626E4D0</a:ObjectID><a:Name>calcularImportes()</a:Name><a:Code>FAC_GENERAR_FACTURA_04</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o1016"/></c:Object1><c:Object2><o:UMLObject Ref="o1016"/></c:Object2></o:Message><o:Message Id="o1036"><a:ObjectID>51632EC1-1946-44E6-86E0-E91BEA387715</a:ObjectID><a:Name>confirmarEmision()</a:Name><a:Code>FAC_GENERAR_FACTURA_05</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o1013"/></c:Object1><c:Object2><o:UMLObject Ref="o1016"/></c:Object2></o:Message><o:Message Id="o1038"><a:ObjectID>FEB51C1B-CFCF-4C5C-B28E-4C78EE5439A1</a:ObjectID><a:Name>guardarFacturaYDetalles()</a:Name><a:Code>FAC_GENERAR_FACTURA_06</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o1016"/></c:Object1><c:Object2><o:UMLObject Ref="o1022"/></c:Object2></o:Message><o:Message Id="o1040"><a:ObjectID>86E027F0-FABC-4E57-99BD-FACF7CFB7D09</a:ObjectID><a:Name>registrarPago()</a:Name><a:Code>FAC_GENERAR_FACTURA_07</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o1013"/></c:Object1><c:Object2><o:UMLObject Ref="o1016"/></c:Object2></o:Message><o:Message Id="o1042"><a:ObjectID>64C846C2-101D-4C15-A989-AACB164C6EEA</a:ObjectID><a:Name>asentarPago()</a:Name><a:Code>FAC_GENERAR_FACTURA_08</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o1016"/></c:Object1><c:Object2><o:UMLObject Ref="o1022"/></c:Object2></o:Message><o:Message Id="o1044"><a:ObjectID>88277FA7-09C1-48D4-AB8A-8F09179D67DD</a:ObjectID><a:Name>registrarEventoFinanciero()</a:Name><a:Code>FAC_GENERAR_FACTURA_09</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o1016"/></c:Object1><c:Object2><o:UMLObject Ref="o1025"/></c:Object2></o:Message><o:Message Id="o1046"><a:ObjectID>475FB213-40EC-4B7B-8D9F-7B102E42FA0E</a:ObjectID><a:Name>entregarComprobante()</a:Name><a:Code>FAC_GENERAR_FACTURA_10</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o1016"/></c:Object1><c:Object2><o:UMLObject Ref="o1013"/></c:Object2></o:Message><o:Message Id="o1065"><a:ObjectID>E069D9A7-9B76-4AEC-A079-15F99C7B9052</a:ObjectID><a:Name>solicitarConsulta()</a:Name><a:Code>AUD_CONSULTAR_REGISTROS_01</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o1050"/></c:Object1><c:Object2><o:UMLObject Ref="o1053"/></c:Object2></o:Message><o:Message Id="o1067"><a:ObjectID>11249303-EDC4-4448-931A-59B444C92BEF</a:ObjectID><a:Name>verificarPermisoAuditoria()</a:Name><a:Code>AUD_CONSULTAR_REGISTROS_02</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o1053"/></c:Object1><c:Object2><o:UMLObject Ref="o1056"/></c:Object2></o:Message><o:Message Id="o1069"><a:ObjectID>0BD679E9-8975-4DD4-A4C4-6BBE69D64548</a:ObjectID><a:Name>devolverAutorizacion()</a:Name><a:Code>AUD_CONSULTAR_REGISTROS_03</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o1056"/></c:Object1><c:Object2><o:UMLObject Ref="o1053"/></c:Object2></o:Message><o:Message Id="o1071"><a:ObjectID>C449AF64-B399-4D01-ACF0-759E340B1F71</a:ObjectID><a:Name>consultarEventosFiltrados()</a:Name><a:Code>AUD_CONSULTAR_REGISTROS_04</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o1053"/></c:Object1><c:Object2><o:UMLObject Ref="o1059"/></c:Object2></o:Message><o:Message Id="o1073"><a:ObjectID>63C9E297-2880-4820-88C9-9DFABB1679BE</a:ObjectID><a:Name>devolverEventosProtegidos()</a:Name><a:Code>AUD_CONSULTAR_REGISTROS_05</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o1059"/></c:Object1><c:Object2><o:UMLObject Ref="o1053"/></c:Object2></o:Message><o:Message Id="o1075"><a:ObjectID>8AD7A1C5-149D-4E7C-8574-2FBAB264B230</a:ObjectID><a:Name>prepararInformeAutorizado()</a:Name><a:Code>AUD_CONSULTAR_REGISTROS_06</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o1053"/></c:Object1><c:Object2><o:UMLObject Ref="o1062"/></c:Object2></o:Message><o:Message Id="o1077"><a:ObjectID>056D117B-AF7E-4AE3-93A3-17AEBE186384</a:ObjectID><a:Name>mostrarReporte()</a:Name><a:Code>AUD_CONSULTAR_REGISTROS_07</a:Code><a:CreationDate>1793815000</a:CreationDate><a:Creator>SIGH GR06</a:Creator><a:ModificationDate>1793815000</a:ModificationDate><a:Modifier>SIGH GR06</a:Modifier><c:Object1><o:UMLObject Ref="o1062"/></c:Object1><c:Object2><o:UMLObject Ref="o1050"/></c:Object2></o:Message></c:Messages></o:Model>
+</c:Children>
+</o:RootObject>
+
+</Model>

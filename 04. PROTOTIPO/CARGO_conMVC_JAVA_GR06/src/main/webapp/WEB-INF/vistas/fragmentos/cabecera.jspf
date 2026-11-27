@@ -1,0 +1,12 @@
+<header class="app-header">
+  <div class="app-header-inner">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M12 5h8v7h7v8h-7v7h-8v-7H5v-8h7V5Z" fill="currentColor"/></svg></span>
+      <span class="brand-name">Monster Salud<span>Hospital General · SIGH_GR06</span></span>
+    </div>
+    <form action="${pageContext.request.contextPath}/salir" method="post">
+      <input type="hidden" name="tokenCsrf" value="<c:out value='${tokenCsrf}'/>">
+      <button class="button button-logout" type="submit"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 4H5v16h4m6-4 4-4-4-4m-6 4h12" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" /></svg><span>Cerrar sesión</span></button>
+    </form>
+  </div>
+</header>
